@@ -27,6 +27,7 @@ def main():
     show_distance_max = args.get("show_distances_max", 21)
     show_distance_step = args.get("show_distances_step", 1.0)
     figure_output_path = args.get("figure_output_path", "../result/figure/")
+    show_all_F_k = args.get("show_all_F_k", False)
 
     distances = np.linspace(show_distance_min, show_distance_step, show_distance_max)
 
@@ -41,12 +42,12 @@ def main():
             seq2 = mutate_sequence(seq1, dist)
 
             # calculate k-mer mode match probability
-            p_hat_kmer = calculate_match_probability(seq1, seq2, method="basic_kmer")
+            p_hat_kmer = calculate_match_probability(seq1, seq2, show_all_F_k, method="basic_kmer")
             estimated_distance_kmer = estimate_jukes_cantor_distance(p_hat_kmer)
             results_kmer.append((dist, estimated_distance_kmer))
 
             # calculate spaced-word mode match probability
-            p_hat_spaced = calculate_match_probability(seq1, seq2, method="spaced_word")
+            p_hat_spaced = calculate_match_probability(seq1, seq2, show_all_F_k, method="spaced_word")
             estimated_distance_spaced = estimate_jukes_cantor_distance(p_hat_spaced)
             results_spaced.append((dist, estimated_distance_spaced))
     

@@ -10,3 +10,6 @@ show_distances_min: 0.00
 show_distances_max: 21
 show_distances_step: 1.0
 figure_output_path: "../result/figure/"
+
+# reproduction figure
+show_all_F_k: False

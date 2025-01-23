@@ -1,0 +1,11 @@
+# input
+data_path: "../dataset/test.fasta"
+
+# reproduction figure
+show_all_F_k: True
+
+# available subseq methods
+subseq_methods: ["basic_kmer_matches", "spaced_word_matches"]
+
+# output
+figure_output_path: "../result/figure/"

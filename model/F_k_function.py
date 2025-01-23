@@ -6,10 +6,11 @@ sys.path.append(project_root)
 
 import math
 import numpy as np
+from tqdm import tqdm
 from model.subsequence_method import basic_kmer_matches, spaced_word_matches
 
 
-def calculate_match_probability(seq1: str, seq2: str, method: str = "basic_kmer") -> float:
+def calculate_match_probability(seq1: str, seq2: str, show_all_F_k: bool, method: str = "basic_kmer") -> float:
     """
     Calculate the match probability for different k values using k-mer or spaced-word methods.
     :param seq1: str, first DNA sequence
@@ -24,15 +25,31 @@ def calculate_match_probability(seq1: str, seq2: str, method: str = "basic_kmer"
     k_max = math.floor(math.log(L) / 0.634)
     
     match_counts = []
-    for k in range(k_min, k_max + 1):
-        if method == "basic_kmer":
-            matches = basic_kmer_matches(seq1, seq2, k)
-        elif method == "spaced_word":
-            matches = spaced_word_matches(seq1, seq2, k)
-        else:
-            raise ValueError("Invalid method. Use 'kmer' or 'spaced_word'.")
-        
-        match_counts.append(matches)
+
+    if show_all_F_k == True:
+        F_k = []
+        k_values = list(range(1, 25))
+        for k in tqdm(k_values, desc="Calculating F(k) for different k values"):
+            if method == "basic_kmer":
+                matches = basic_kmer_matches(seq1, seq2, k)
+            elif method == "spaced_word":
+                matches = spaced_word_matches(seq1, seq2, k)
+            else:
+                raise ValueError("Invalid align-free method.")
+            
+            match_counts.append(matches)
+            F_k_value = np.log(matches)
+            F_k.append(F_k_value)
+    else:
+        for k in range(k_min, k_max + 1):
+            if method == "basic_kmer":
+                matches = basic_kmer_matches(seq1, seq2, k)
+            elif method == "spaced_word":
+                matches = spaced_word_matches(seq1, seq2, k)
+            else:
+                raise ValueError("Invalid align-free method.")
+            
+            match_counts.append(matches)
     
     # Calculate match probability p, using the slope of F(k) = ln(N_k) between k_min and k_max to estimate the match probability
     x = np.array([k_min, k_max])
@@ -41,4 +58,8 @@ def calculate_match_probability(seq1: str, seq2: str, method: str = "basic_kmer"
     
     # Estimate match probability p
     p_hat = np.exp(slope)
-    return p_hat
+
+    if show_all_F_k == True:
+        return F_k, p_hat
+    else:
+        return p_hat
