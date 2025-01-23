@@ -9,6 +9,11 @@ This code is not original implement of the paper. Original implement by the auth
 
 ## How to run the code
 ### 1. Figure 3 reproduction
+Just run the following code (under script folder)
+```shell
+python3 figure_3.py
+```
+
 The script of figure 3 is 
 ```yaml
 ./script/figure_3.py
