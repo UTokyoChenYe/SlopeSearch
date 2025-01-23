@@ -82,7 +82,7 @@ def main():
     plt.title('Average Estimated Distance vs True Jukes-Cantor Distance')
     plt.grid(True)
     plt.legend()
-    plt.savefig(figure_output_path + 'estimated_distance_vs_true_distance.png')
+    plt.savefig(figure_output_path + f'estimated_distance_vs_true_distance_L_{length}_pairs_{num_pairs}.png')
     plt.show()
 
 if __name__ == "__main__":
