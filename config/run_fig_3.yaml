@@ -1,0 +1,12 @@
+# simulation parameters
+num_pairs: 200 # Paper: 20000
+length: 1000 # Paper: 1000
+
+# available subseq methods
+subseq_methods: ["basic_kmer_matches", "spaced_word_matches"]
+
+# output
+show_distances_min: 0.00
+show_distances_max: 21
+show_distances_step: 1.0
+figure_output_path: "../result/figure/"
