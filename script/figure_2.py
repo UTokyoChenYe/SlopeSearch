@@ -19,10 +19,11 @@ def main():
     data_path = args.get("data_path", "../dataset/test.fasta")
     figure_output_path = args.get("figure_output_path", "../result/figure/")
     show_all_F_k = args.get("show_all_F_k", True)
+    single_seq = args.get("single_seq", True)
 
     seq_list = load_sequences(data_path)
 
-    F_k, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, "basic_kmer")
+    F_k, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "basic_kmer")
 
     k_values = list(range(1, 25))
 

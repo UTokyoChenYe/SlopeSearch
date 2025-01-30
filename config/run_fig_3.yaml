@@ -4,6 +4,7 @@ length: 1000 # Paper: 1000
 
 # available subseq methods
 subseq_methods: ["basic_kmer_matches", "spaced_word_matches"]
+single_seq: True
 
 # output
 show_distances_min: 0.00

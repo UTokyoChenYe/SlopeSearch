@@ -3,9 +3,15 @@ from collections import Counter
 from typing import List
 
 # 0. tools
-def count_kmers(sequence: str, k: int) -> Counter:
+def reverse_complement(sequence: str) -> str:
+    """生成 DNA 序列的反向互补序列"""
+    complement = str.maketrans("ACGT", "TGCA") 
+    return sequence.translate(complement)[::-1]  
+
+def count_kmers(sequences: List[str], k: int) -> Counter:
     """calculate k-mer frequencies in a given sequence"""
-    kmers = [sequence[i:i+k] for i in range(len(sequence) - k + 1)]
+    kmers = [sequence[i:i+k] for sequence in sequences for i in range(len(sequence) - k + 1)]
+    # kmers = s[i:i+k] for s in sequences for i in range(len(s) - k + 1)
     return Counter(kmers)
 
 def generate_pattern(length):
@@ -21,8 +27,16 @@ def extract_spaced_word(sequence: str, pattern: str) -> List[str]:
     return words
 
 # 1. basic k-mer matches
-def basic_kmer_matches(seq1: str, seq2: str, k: int) -> int:
+def basic_kmer_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
     """calculate the number of k-mer matches between two sequences"""
+    if single_seq == 1:
+        seq1 = [seq1]
+        seq2 = [seq2]
+    else:
+        seq1_revere = reverse_complement(seq1)
+        seq1 = [seq1, seq1_revere]
+        seq2_revere = reverse_complement(seq2)
+        seq2 = [seq2, seq2_revere]
     kmer_count1 = count_kmers(seq1, k)
     kmer_count2 = count_kmers(seq2, k)
     matches = 0
