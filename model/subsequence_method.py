@@ -4,7 +4,7 @@ from typing import List
 
 # 0. tools
 def reverse_complement(sequence: str) -> str:
-    """生成 DNA 序列的反向互补序列"""
+    """generate the reverse of seq"""
     complement = str.maketrans("ACGT", "TGCA") 
     return sequence.translate(complement)[::-1]  
 
@@ -33,10 +33,9 @@ def basic_kmer_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
         seq1 = [seq1]
         seq2 = [seq2]
     else:
-        seq1_revere = reverse_complement(seq1)
-        seq1 = [seq1, seq1_revere]
-        seq2_revere = reverse_complement(seq2)
-        seq2 = [seq2, seq2_revere]
+        seq1_reverse = reverse_complement(seq1)
+        seq1 = [seq1, seq1_reverse]
+        seq2 = [seq2] # only one time reverse is okay, two reverse will make it slower
     kmer_count1 = count_kmers(seq1, k)
     kmer_count2 = count_kmers(seq2, k)
     matches = 0
