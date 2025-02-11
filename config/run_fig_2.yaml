@@ -5,7 +5,7 @@ data_path: "../dataset/test.fasta"
 show_all_F_k: True
 
 # available subseq methods
-subseq_methods: ["basic_kmer_matches", "spaced_word_matches"]
+subseq_methods: ["basic_kmer_matches", "spaced_word_matches", "start_ry_matches"]
 single_seq: True
 
 # output

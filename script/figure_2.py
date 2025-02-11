@@ -23,12 +23,16 @@ def main():
 
     seq_list = load_sequences(data_path)
 
-    F_k, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "basic_kmer")
+    F_k, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "start_ry_matches")
+    F_k_2, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "basic_kmer_matches")
 
-    k_values = list(range(1, 25))
+    # k_values = list(range(1, 25))
+    k_values = list(range(2, 25))
 
     plt.figure(figsize=(10, 6))
-    plt.plot(k_values[:len(F_k)], F_k, marker='o', linestyle='-', color='b')
+    plt.plot(k_values[:len(F_k)], F_k, marker='o', linestyle='-', color='b', label='start_ry_matches')
+    plt.plot(k_values[:len(F_k_2)], F_k_2, marker='o', linestyle='-', color='r', label='basic_kmer_matches')
+
     plt.xlabel('Word Length (k)')
     plt.ylabel('Number of Matches F(k)')
     plt.title('Relationship between F(k) and Word Length (k)')

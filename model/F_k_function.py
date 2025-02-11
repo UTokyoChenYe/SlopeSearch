@@ -7,7 +7,7 @@ sys.path.append(project_root)
 import math
 import numpy as np
 from tqdm import tqdm
-from model.subsequence_method import basic_kmer_matches, spaced_word_matches
+from model.subsequence_method import *
 
 
 def calculate_match_probability(seq1: str, seq2: str, show_all_F_k: bool, single_seq: bool, method: str = "basic_kmer") -> float:
@@ -28,12 +28,15 @@ def calculate_match_probability(seq1: str, seq2: str, show_all_F_k: bool, single
 
     if show_all_F_k == True:
         F_k = []
-        k_values = list(range(1, 25))
+        # k_values = list(range(1, 25))
+        k_values = list(range(2, 25))
         for k in tqdm(k_values, desc="Calculating F(k) for different k values"):
-            if method == "basic_kmer":
+            if method == "basic_kmer_matches":
                 matches = basic_kmer_matches(seq1, seq2, k, single_seq)
             elif method == "spaced_word":
                 matches = spaced_word_matches(seq1, seq2, k, single_seq)
+            elif method == "start_ry_matches":
+                matches = start_ry_matches(seq1, seq2, k, single_seq)
             else:
                 raise ValueError("Invalid align-free method.")
             
