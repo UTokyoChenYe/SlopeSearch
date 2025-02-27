@@ -4,7 +4,7 @@ current_dir = os.path.dirname(os.path.abspath(__file__))
 project_root = os.path.abspath(os.path.join(current_dir, os.pardir))
 sys.path.append(project_root)
 from utils.file_system import load_sequences
-from model.F_k_function import calculate_match_probability
+from model.F_k_function import *
 
 import yaml
 import matplotlib.pyplot as plt
@@ -18,20 +18,18 @@ def main():
 
     data_path = args.get("data_path", "../dataset/test.fasta")
     figure_output_path = args.get("figure_output_path", "../result/figure/")
-    show_all_F_k = args.get("show_all_F_k", True)
-    single_seq = args.get("single_seq", True)
 
     seq_list = load_sequences(data_path)
 
-    F_k, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "start_ry_matches")
-    F_k_2, _ = calculate_match_probability(seq_list[0], seq_list[1], show_all_F_k, single_seq, "basic_kmer_matches")
+    F_k_v2 = F_k_function_v2(seq_list[0], seq_list[1], "start_ry_matches", args).get_F_k()
+    F_k_paper = F_k_function_paper(seq_list[0], seq_list[1], "basic_kmer_matches", args).get_F_k()
 
     # k_values = list(range(1, 25))
     k_values = list(range(2, 25))
 
     plt.figure(figsize=(10, 6))
-    plt.plot(k_values[:len(F_k)], F_k, marker='o', linestyle='-', color='b', label='start_ry_matches')
-    plt.plot(k_values[:len(F_k_2)], F_k_2, marker='o', linestyle='-', color='r', label='basic_kmer_matches')
+    plt.plot(k_values[:len(F_k_v2)], F_k_v2, marker='o', linestyle='-', color='b', label='start_ry_matches')
+    plt.plot(k_values[:len(F_k_paper)], F_k_paper, marker='o', linestyle='-', color='r', label='basic_kmer_matches')
 
     plt.xlabel('Word Length (k)')
     plt.ylabel('Number of Matches F(k)')

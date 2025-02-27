@@ -2,12 +2,9 @@ import random
 from collections import Counter
 from typing import List
 
-# 0. tools
-def reverse_complement(sequence: str) -> str:
-    """generate the reverse of seq"""
-    complement = str.maketrans("ACGT", "TGCA") 
-    return sequence.translate(complement)[::-1]  
+from utils.sequence_tool import *
 
+# 0. tools
 def count_kmers(sequences: List[str], k: int) -> Counter:
     """calculate k-mer frequencies in a given sequence"""
     kmers = [sequence[i:i+k] for sequence in sequences for i in range(len(sequence) - k + 1)]
@@ -25,18 +22,6 @@ def count_kmers_start_ry(sequences: List[str], k: int) -> Counter:
             if kmer[0] in purines and kmer[1] in pyrimidines:
                 kmers.append(kmer)
     return Counter(kmers)
-
-def generate_pattern(length):
-    """Generate a random binary pattern of given length."""
-    return ''.join(random.choice(['0', '1']) for _ in range(length))
-
-def extract_spaced_word(sequence: str, pattern: str) -> List[str]:
-    words = []
-    pattern_length = len(pattern)
-    for i in range(len(sequence) - pattern_length + 1):
-        spaced_word = ''.join(sequence[i+j] for j in range(pattern_length) if pattern[j] == '1')
-        words.append(spaced_word)
-    return words
 
 # 1. basic k-mer matches
 def basic_kmer_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
@@ -87,5 +72,6 @@ def start_ry_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
     matches = 0
     for kmer in kmer_count1:
         if kmer in kmer_count2:
-            matches += kmer_count1[kmer] * kmer_count2[kmer]
+            # matches += kmer_count1[kmer] * kmer_count2[kmer]
+            matches += min(kmer_count1[kmer], kmer_count2[kmer])
     return matches
