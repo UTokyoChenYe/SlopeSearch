@@ -30,8 +30,8 @@ class F_k_function_paper:
         for k in tqdm(self.k_values, desc="Calculating F(k) for different k values"):
             if self.method == "basic_kmer_matches":
                 matches = basic_kmer_matches(seq1, seq2, k, self.single_seq)
-            elif self.method == "spaced_word":
-                matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
+            # elif self.method == "spaced_word":
+            #     matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
             elif self.method == "start_ry_matches":
                 matches = start_ry_matches(seq1, seq2, k, self.single_seq)
             else:
@@ -45,7 +45,7 @@ class F_k_function_paper:
         return self.F_k
 
 
-class F_k_function_paper_v1:
+class F_k_function_v1:
     def __init__(self, seq1: str, seq2: str, method, args):
         self.method = method
         self.single_seq = args.get("single_seq", True)
@@ -64,8 +64,8 @@ class F_k_function_paper_v1:
         for k in tqdm(self.k_values, desc="Calculating F(k) for different k values"):
             if self.method == "basic_kmer_matches":
                 matches = basic_kmer_matches(seq1, seq2, k, self.single_seq)
-            elif self.method == "spaced_word":
-                matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
+            # elif self.method == "spaced_word":
+            #     matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
             elif self.method == "start_ry_matches":
                 matches = start_ry_matches(seq1, seq2, k, self.single_seq)
             else:
@@ -99,21 +99,24 @@ class F_k_function_v2:
         for k in tqdm(self.k_values, desc="Calculating F(k) for different k values"):
             if self.method == "basic_kmer_matches":
                 matches = basic_kmer_matches(seq1, seq2, k, self.single_seq)
-            elif self.method == "spaced_word":
-                matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
+            # elif self.method == "spaced_word":
+            #     matches = spaced_word_matches(seq1, seq2, k, self.single_seq)
             elif self.method == "start_ry_matches":
                 matches = start_ry_matches(seq1, seq2, k, self.single_seq)
             else:
                 raise ValueError("Invalid align-free method.")
             
             if self.method == "start_ry_matches":
-                non_homologous_matches = basic_kmer_matches(seq1, reverse_complement(seq1), k, self.single_seq) / 4
+                non_homologous_matches = basic_kmer_matches(seq1, reverse(seq2), k, self.single_seq) / 4
             else:
-                non_homologous_matches = basic_kmer_matches(seq1, reverse_complement(seq1), k, self.single_seq)
-
-            F_k_value = np.log(matches - non_homologous_matches)
+                non_homologous_matches = basic_kmer_matches(seq1, reverse(seq2), k, self.single_seq)
             
-            self.F_k.append(F_k_value)
+            diff = matches - non_homologous_matches
+            if diff <= 0:
+                self.F_k.append(np.nan)
+            else:
+                F_k_value = np.log(diff)
+                self.F_k.append(F_k_value)
     
     def get_F_k(self):
         return self.F_k

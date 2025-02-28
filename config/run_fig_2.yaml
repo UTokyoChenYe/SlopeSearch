@@ -3,7 +3,7 @@ data_path: "../dataset/test.fasta"
 
 # available subseq methods
 subseq_methods: ["basic_kmer_matches", "spaced_word_matches", "start_ry_matches"]
-single_seq: True
+single_seq: False
 
 # output
 figure_output_path: "../result/figure/"

@@ -19,7 +19,11 @@ def reverse_complement(sequence: str) -> str:
     complement = str.maketrans("ACGT", "TGCA") 
     return sequence.translate(complement)[::-1]  
 
-# For spaced-word matches
+def reverse(sequence: str) -> str:
+    """generate the reverse of seq"""
+    return sequence[::-1]
+
+# For spaced-word matches, maybe delete this function
 def generate_pattern(length):
     """Generate a random binary pattern of given length."""
     return ''.join(random.choice(['0', '1']) for _ in range(length))
