@@ -1,0 +1,47 @@
+{
+    "name": "Plants",
+    "description": "14 Plant Genomes",
+    "tree_file": "plants_ref-tree.newick",
+    "subdatasets": [
+       "0.015625",
+       "0.03125",
+       "0.0625",
+       "0.125",
+       "0.25",
+       "0.5",
+       "1"
+    ],
+    "seqids": [
+      "cacao",
+      "camaldule",
+      "clementin",
+      "grandis",
+      "halophilu",
+      "lyrata",
+      "papaya",
+      "parvulum",
+      "raimondii",
+      "rapa",
+      "rubella",
+      "sinensis",
+      "thalian",
+      "vinifera"
+    ],
+    "treids": [
+      "Theobroma_cacao",
+      "Eucalyptus_camaldulensis",
+      "Citrus_clementina",
+      "Eucalyptus_grandis",
+      "Eutrema_halophilum",
+      "Arabidopsis_lyrata",
+      "Carica_papaya",
+      "Eutrema_parvulum",
+      "Gossypium_raimondii",
+      "Brassica_rapa",
+      "Capsella_rubella",
+      "Citrus_sinensis",
+      "Arabidopsis_thaliana",
+      "Vitis_vinifera"
+    ]
+    
+}

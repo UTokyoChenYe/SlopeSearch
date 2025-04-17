@@ -1,0 +1,47 @@
+{
+    "name": "E.coli strains",
+    "description": "29 E.coli/Shigella strains",
+    "tree_file": "ecoli_ref-tree.newick",
+    "subdatasets": [
+        "0.03125",
+        "0.0625",
+        "0.125",
+        "0.25",
+        "0.5",
+        "1",
+        "5"
+    ],
+    "seqids": [
+        "536",
+        "APEC01",
+        "ATCC8739",
+        "B18BS512",
+        "B4Sb227",
+        "BW2952",
+        "CB9615",
+        "CFT073",
+        "DH10B",
+        "E234869",
+        "E24377A",
+        "ED1a",
+        "EDL933",
+        "F2a2457T",
+        "F2a301",
+        "F5b8401",
+        "HS",
+        "IAI1",
+        "IAI39",
+        "MG1655",
+        "S88",
+        "Sakai",
+        "D1Sd197",
+        "SE11",
+        "SMS35",
+        "SSSs046",
+        "UMN026",
+        "UTI89",
+        "W3110"
+    ],
+    "treids": []
+    
+}
