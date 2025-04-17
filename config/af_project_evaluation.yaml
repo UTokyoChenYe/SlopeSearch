@@ -1,0 +1,12 @@
+# input
+data_path: "../dataset/test.fasta"
+
+# output
+output_path: "../result"
+
+# methods
+k_mers_method: "basic_kmer_matches"
+background_matches_method: "static_method"
+bool_use_single_seq: true
+bool_use_empirical_formula: true
+

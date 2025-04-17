@@ -10,6 +10,107 @@ from tqdm import tqdm
 
 from model.subsequence_method import *
 from utils.sequence_tool import *
+from utils.logger import setup_logger
+
+logger = setup_logger()
+
+class F_k_funtion:
+    def __init__(self, seq1:str, seq2:str, args:dict):
+        self.k_mers_method = args.get("k_mers_method", "basic_kmer_matches") # method to calculate F_k
+        self.bool_use_single_seq = args.get("bool_use_single_seq", True) # whether taking reverse complement into account
+        self.bool_use_empirical_formula = args.get("bool_use_empirical_formula", True) # whether using empirical formula to calculate k_min and k_max
+        self.background_matches_method = args.get("background_matches_method", "basic_kmer_matches") # method to calculate background matches
+        self.k_show_values = args.get("k_show_values", list(range(2, 25))) # k values to show
+        self.seq1 = seq1
+        self.seq2 = seq2
+        self.L_1 = len(seq1)
+        self.L_2 = len(seq2)
+        self.L = (self.L_1 + self.L_2) / 2  # Average length of the two sequences
+
+        if self.bool_use_empirical_formula:
+            logger.info("Using empirical formula to calculate k_min and k_max")
+            # using Empirical formula to calculate k_min and k_max
+            self.k_min = math.ceil((math.log(self.L) + 0.69) / 0.875)
+            self.k_max = math.floor(math.log(self.L) / 0.634)
+            logger.info(f"k_min: {self.k_min}, k_max: {self.k_max}")
+        else:
+            logger.info("Not using empirical formula to calculate k_min and k_max")
+            # TODO: reproduct John's idea to calculate k_min and k_max
+            pass
+
+        # calculate F_k for different k values
+        self.F_k_p_hat = []
+        self.F_k_show = []
+
+        
+    def calculate_p_hat(self):
+        logger.info("Calculating p_hat")
+        for k in tqdm(range(self.k_min, self.k_max + 1), desc="Calculating F(k) for different k values"):
+            if self.k_mers_method == "basic_kmer_matches":
+                logger.info("Using basic kmer matches to calculate F(k)")
+                matches = basic_kmer_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_matches":
+                logger.info("Using start_ry_matches to calculate F(k)")
+                matches = start_ry_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            else:
+                logger.error("Invalid align-free method.")
+                raise ValueError("Invalid align-free method.")
+            
+            if self.background_matches_method == "basic_kmer_matches":
+                logger.info("Using basic kmer matches to calculate background matches")
+                background_matches = basic_kmer_matches(self.seq1, reverse(self.seq2), k, self.bool_use_single_seq)
+            elif self.background_matches_method == "static_method":
+                logger.info("Using static method to calculate background matches")
+                background_matches = 2 * self.L_1 * self.L_2 * (1/4)**k
+            elif self.background_matches_method == "no_background_matches":
+                logger.info("No background matches")
+                background_matches = 0
+            else:
+                logger.error("Invalid background matches method.")
+                raise ValueError("Invalid background matches method.")
+            
+            self.F_k_p_hat.append(np.log(matches - background_matches))
+
+        # calculate p_hat
+        x = np.array([self.k_min, self.k_max])
+        y = np.array([self.F_k_p_hat[0], self.F_k_p_hat[-1]]) + 1e-10  # Prevent log(0) by adding a small value
+        slope, _ = np.polyfit(x, np.log(y), 1)  # Calculate slope by fitting log of match counts between k_min and k_max
+        self.p_hat = np.exp(slope)
+        logger.info(f"p_hat: {self.p_hat}")
+
+        return self.p_hat
+
+
+    def show_F_k_curve(self):
+        logger.info("Showing F(k) curve")
+        for k in tqdm(self.k_show_values, desc="Showing F(k) curve"):
+            if self.k_mers_method == "basic_kmer_matches":
+                logger.info("Using basic kmer matches to calculate F(k)")
+                matches = basic_kmer_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_matches":
+                logger.info("Using start_ry_matches to calculate F(k)")
+                matches = start_ry_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            else:
+                logger.error("Invalid align-free method.")
+                raise ValueError("Invalid align-free method.")
+
+            if self.background_matches_method == "basic_kmer_matches":
+                logger.info("Using basic kmer matches to calculate background matches")
+                background_matches = basic_kmer_matches(self.seq1, reverse(self.seq2), k, self.bool_use_single_seq)
+            elif self.background_matches_method == "static_method":
+                logger.info("Using static method to calculate background matches")
+                background_matches = 2 * self.L_1 * self.L_2 * (1/4)**k
+            elif self.background_matches_method == "no_background_matches":
+                logger.info("No background matches")
+                background_matches = 0
+            else:
+                logger.error("Invalid background matches method.")
+                raise ValueError("Invalid background matches method.")
+            
+            self.F_k_show.append(np.log(matches - background_matches))
+
+        return self.F_k_show
+
 
 class F_k_function_paper:
     def __init__(self, seq1: str, seq2: str, method, args):

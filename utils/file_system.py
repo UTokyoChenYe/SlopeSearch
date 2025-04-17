@@ -1,5 +1,5 @@
 from Bio import SeqIO
-from typing import List
+from typing import List, Tuple
 
 def load_sequences(file_path: str) -> List[str]:
     """
@@ -22,4 +22,10 @@ def load_sequences(file_path: str) -> List[str]:
         sequences.append(str(record.seq))
     if len(sequences) < 2:
         raise ValueError("At least two sequences are required")
-    return sequences
+    return 
+
+def load_sequences_for_evaluation(file_path: str) -> Tuple[List[str], List[str]]:
+    records = list(SeqIO.parse(file_path, "fasta"))
+    names = [rec.id for rec in records]
+    seqs = [str(rec.seq).upper() for rec in records]
+    return names, seqs

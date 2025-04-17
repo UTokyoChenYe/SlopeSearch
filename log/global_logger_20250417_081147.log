@@ -1,0 +1,206 @@
+2025-04-17 08:11:47,413 - global_logger - INFO - Starting show F(k) curve
+2025-04-17 08:11:47,413 - global_logger - INFO - Starting show F(k) curve
+2025-04-17 08:11:47,413 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-04-17 08:11:47,413 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-04-17 08:11:47,416 - global_logger - INFO - Loading sequences from ../dataset/test.fasta
+2025-04-17 08:11:47,416 - global_logger - INFO - Loading sequences from ../dataset/test.fasta
+2025-04-17 08:11:47,492 - global_logger - INFO - Loaded 2 sequences
+2025-04-17 08:11:47,492 - global_logger - INFO - Loaded 2 sequences
+2025-04-17 08:11:47,492 - global_logger - INFO - Saving results to ../result/show_F_k_curve_20250417_081147_start_ry_matches_no_background_matches_True_True.png
+2025-04-17 08:11:47,492 - global_logger - INFO - Saving results to ../result/show_F_k_curve_20250417_081147_start_ry_matches_no_background_matches_True_True.png
+2025-04-17 08:11:47,492 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-17 08:11:47,492 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-17 08:11:47,492 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-17 08:11:47,492 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-17 08:11:47,492 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-17 08:11:47,492 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-17 08:11:47,492 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-17 08:11:47,492 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-17 08:11:47,493 - global_logger - INFO - Showing F(k) curve
+2025-04-17 08:11:47,493 - global_logger - INFO - Showing F(k) curve
+2025-04-17 08:11:47,498 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:47,498 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:49,738 - global_logger - INFO - No background matches
+2025-04-17 08:11:49,738 - global_logger - INFO - No background matches
+2025-04-17 08:11:49,738 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:49,738 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:52,009 - global_logger - INFO - No background matches
+2025-04-17 08:11:52,009 - global_logger - INFO - No background matches
+2025-04-17 08:11:52,010 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:52,010 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:54,253 - global_logger - INFO - No background matches
+2025-04-17 08:11:54,253 - global_logger - INFO - No background matches
+2025-04-17 08:11:54,254 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:54,254 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:56,510 - global_logger - INFO - No background matches
+2025-04-17 08:11:56,510 - global_logger - INFO - No background matches
+2025-04-17 08:11:56,511 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:56,511 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:58,781 - global_logger - INFO - No background matches
+2025-04-17 08:11:58,781 - global_logger - INFO - No background matches
+2025-04-17 08:11:58,782 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:11:58,782 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:01,043 - global_logger - INFO - No background matches
+2025-04-17 08:12:01,043 - global_logger - INFO - No background matches
+2025-04-17 08:12:01,043 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:01,043 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:03,351 - global_logger - INFO - No background matches
+2025-04-17 08:12:03,351 - global_logger - INFO - No background matches
+2025-04-17 08:12:03,352 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:03,352 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:05,849 - global_logger - INFO - No background matches
+2025-04-17 08:12:05,849 - global_logger - INFO - No background matches
+2025-04-17 08:12:05,850 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:05,850 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:08,715 - global_logger - INFO - No background matches
+2025-04-17 08:12:08,715 - global_logger - INFO - No background matches
+2025-04-17 08:12:08,715 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:08,715 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:11,895 - global_logger - INFO - No background matches
+2025-04-17 08:12:11,895 - global_logger - INFO - No background matches
+2025-04-17 08:12:11,895 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:11,895 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:15,218 - global_logger - INFO - No background matches
+2025-04-17 08:12:15,218 - global_logger - INFO - No background matches
+2025-04-17 08:12:15,218 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:15,218 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:18,467 - global_logger - INFO - No background matches
+2025-04-17 08:12:18,467 - global_logger - INFO - No background matches
+2025-04-17 08:12:18,467 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:18,467 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:21,685 - global_logger - INFO - No background matches
+2025-04-17 08:12:21,685 - global_logger - INFO - No background matches
+2025-04-17 08:12:21,685 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:21,685 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:24,878 - global_logger - INFO - No background matches
+2025-04-17 08:12:24,878 - global_logger - INFO - No background matches
+2025-04-17 08:12:24,878 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:24,878 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:28,094 - global_logger - INFO - No background matches
+2025-04-17 08:12:28,094 - global_logger - INFO - No background matches
+2025-04-17 08:12:28,094 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:28,094 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:31,308 - global_logger - INFO - No background matches
+2025-04-17 08:12:31,308 - global_logger - INFO - No background matches
+2025-04-17 08:12:31,309 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:31,309 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:34,484 - global_logger - INFO - No background matches
+2025-04-17 08:12:34,484 - global_logger - INFO - No background matches
+2025-04-17 08:12:34,485 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:34,485 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:37,672 - global_logger - INFO - No background matches
+2025-04-17 08:12:37,672 - global_logger - INFO - No background matches
+2025-04-17 08:12:37,673 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:37,673 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:40,887 - global_logger - INFO - No background matches
+2025-04-17 08:12:40,887 - global_logger - INFO - No background matches
+2025-04-17 08:12:40,888 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:40,888 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:44,162 - global_logger - INFO - No background matches
+2025-04-17 08:12:44,162 - global_logger - INFO - No background matches
+2025-04-17 08:12:44,163 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:44,163 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:47,316 - global_logger - INFO - No background matches
+2025-04-17 08:12:47,316 - global_logger - INFO - No background matches
+2025-04-17 08:12:47,317 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:47,317 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:50,495 - global_logger - INFO - No background matches
+2025-04-17 08:12:50,495 - global_logger - INFO - No background matches
+2025-04-17 08:12:50,495 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:50,495 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-17 08:12:53,724 - global_logger - INFO - No background matches
+2025-04-17 08:12:53,724 - global_logger - INFO - No background matches
+2025-04-17 08:12:53,725 - global_logger - INFO - Showing F(k) curve
+2025-04-17 08:12:53,725 - global_logger - INFO - Showing F(k) curve
+2025-04-17 08:12:53,725 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:12:53,725 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:12:56,291 - global_logger - INFO - No background matches
+2025-04-17 08:12:56,291 - global_logger - INFO - No background matches
+2025-04-17 08:12:56,292 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:12:56,292 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:12:58,867 - global_logger - INFO - No background matches
+2025-04-17 08:12:58,867 - global_logger - INFO - No background matches
+2025-04-17 08:12:58,868 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:12:58,868 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:01,467 - global_logger - INFO - No background matches
+2025-04-17 08:13:01,467 - global_logger - INFO - No background matches
+2025-04-17 08:13:01,468 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:01,468 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:04,119 - global_logger - INFO - No background matches
+2025-04-17 08:13:04,119 - global_logger - INFO - No background matches
+2025-04-17 08:13:04,120 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:04,120 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:06,819 - global_logger - INFO - No background matches
+2025-04-17 08:13:06,819 - global_logger - INFO - No background matches
+2025-04-17 08:13:06,819 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:06,819 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:09,673 - global_logger - INFO - No background matches
+2025-04-17 08:13:09,673 - global_logger - INFO - No background matches
+2025-04-17 08:13:09,673 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:09,673 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:12,901 - global_logger - INFO - No background matches
+2025-04-17 08:13:12,901 - global_logger - INFO - No background matches
+2025-04-17 08:13:12,902 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:12,902 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:17,117 - global_logger - INFO - No background matches
+2025-04-17 08:13:17,117 - global_logger - INFO - No background matches
+2025-04-17 08:13:17,118 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:17,118 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:22,460 - global_logger - INFO - No background matches
+2025-04-17 08:13:22,460 - global_logger - INFO - No background matches
+2025-04-17 08:13:22,460 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:22,460 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:28,706 - global_logger - INFO - No background matches
+2025-04-17 08:13:28,706 - global_logger - INFO - No background matches
+2025-04-17 08:13:28,706 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:28,706 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:35,355 - global_logger - INFO - No background matches
+2025-04-17 08:13:35,355 - global_logger - INFO - No background matches
+2025-04-17 08:13:35,355 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:35,355 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:41,886 - global_logger - INFO - No background matches
+2025-04-17 08:13:41,886 - global_logger - INFO - No background matches
+2025-04-17 08:13:41,886 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:41,886 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:48,285 - global_logger - INFO - No background matches
+2025-04-17 08:13:48,285 - global_logger - INFO - No background matches
+2025-04-17 08:13:48,285 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:48,285 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:54,640 - global_logger - INFO - No background matches
+2025-04-17 08:13:54,640 - global_logger - INFO - No background matches
+2025-04-17 08:13:54,640 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:13:54,640 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:01,016 - global_logger - INFO - No background matches
+2025-04-17 08:14:01,016 - global_logger - INFO - No background matches
+2025-04-17 08:14:01,016 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:01,016 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:07,423 - global_logger - INFO - No background matches
+2025-04-17 08:14:07,423 - global_logger - INFO - No background matches
+2025-04-17 08:14:07,423 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:07,423 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:13,703 - global_logger - INFO - No background matches
+2025-04-17 08:14:13,703 - global_logger - INFO - No background matches
+2025-04-17 08:14:13,703 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:13,703 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:19,998 - global_logger - INFO - No background matches
+2025-04-17 08:14:19,998 - global_logger - INFO - No background matches
+2025-04-17 08:14:19,998 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:19,998 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:26,330 - global_logger - INFO - No background matches
+2025-04-17 08:14:26,330 - global_logger - INFO - No background matches
+2025-04-17 08:14:26,330 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:26,330 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:32,620 - global_logger - INFO - No background matches
+2025-04-17 08:14:32,620 - global_logger - INFO - No background matches
+2025-04-17 08:14:32,621 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:32,621 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:38,911 - global_logger - INFO - No background matches
+2025-04-17 08:14:38,911 - global_logger - INFO - No background matches
+2025-04-17 08:14:38,912 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:38,912 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:45,191 - global_logger - INFO - No background matches
+2025-04-17 08:14:45,191 - global_logger - INFO - No background matches
+2025-04-17 08:14:45,192 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:45,192 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-04-17 08:14:51,682 - global_logger - INFO - No background matches
+2025-04-17 08:14:51,682 - global_logger - INFO - No background matches
