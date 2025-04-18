@@ -1,0 +1,1839 @@
+2025-04-18 02:36:40,108 - global_logger - INFO - Starting AF project evaluation
+2025-04-18 02:36:40,108 - global_logger - INFO - Starting AF project evaluation
+2025-04-18 02:36:40,108 - global_logger - INFO - Starting AF project evaluation
+2025-04-18 02:36:40,108 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation.yaml
+2025-04-18 02:36:40,108 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation.yaml
+2025-04-18 02:36:40,108 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation.yaml
+2025-04-18 02:36:40,109 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-04-18 02:36:40,109 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-04-18 02:36:40,109 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-04-18 02:36:41,094 - global_logger - INFO - Loaded 29 sequences
+2025-04-18 02:36:41,094 - global_logger - INFO - Loaded 29 sequences
+2025-04-18 02:36:41,094 - global_logger - INFO - Loaded 29 sequences
+2025-04-18 02:36:41,095 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250418_023641_start_ry_matches_no_background_matches_True_True.phy
+2025-04-18 02:36:41,095 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250418_023641_start_ry_matches_no_background_matches_True_True.phy
+2025-04-18 02:36:41,095 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250418_023641_start_ry_matches_no_background_matches_True_True.phy
+2025-04-18 02:36:41,095 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:36:41,095 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:36:41,095 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:36:41,095 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:36:41,095 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:36:41,095 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:36:41,095 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:36:41,095 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:36:41,095 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:36:41,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:41,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:41,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:44,723 - global_logger - INFO - No background matches
+2025-04-18 02:36:44,723 - global_logger - INFO - No background matches
+2025-04-18 02:36:44,723 - global_logger - INFO - No background matches
+2025-04-18 02:36:44,724 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:44,724 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:44,724 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:48,345 - global_logger - INFO - No background matches
+2025-04-18 02:36:48,345 - global_logger - INFO - No background matches
+2025-04-18 02:36:48,345 - global_logger - INFO - No background matches
+2025-04-18 02:36:48,346 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:48,346 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:48,346 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:51,989 - global_logger - INFO - No background matches
+2025-04-18 02:36:51,989 - global_logger - INFO - No background matches
+2025-04-18 02:36:51,989 - global_logger - INFO - No background matches
+2025-04-18 02:36:51,990 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:51,990 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:51,990 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:55,550 - global_logger - INFO - No background matches
+2025-04-18 02:36:55,550 - global_logger - INFO - No background matches
+2025-04-18 02:36:55,550 - global_logger - INFO - No background matches
+2025-04-18 02:36:55,551 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:55,551 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:55,551 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:59,098 - global_logger - INFO - No background matches
+2025-04-18 02:36:59,098 - global_logger - INFO - No background matches
+2025-04-18 02:36:59,098 - global_logger - INFO - No background matches
+2025-04-18 02:36:59,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:59,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:36:59,099 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:02,673 - global_logger - INFO - No background matches
+2025-04-18 02:37:02,673 - global_logger - INFO - No background matches
+2025-04-18 02:37:02,673 - global_logger - INFO - No background matches
+2025-04-18 02:37:02,708 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:37:02,708 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:37:02,708 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:37:02,709 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:37:02,709 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:37:02,709 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:37:02,709 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:02,709 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:02,709 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:02,709 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:02,709 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:02,709 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:02,709 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:02,710 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:02,710 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:02,710 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:06,075 - global_logger - INFO - No background matches
+2025-04-18 02:37:06,075 - global_logger - INFO - No background matches
+2025-04-18 02:37:06,075 - global_logger - INFO - No background matches
+2025-04-18 02:37:06,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:06,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:06,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:09,477 - global_logger - INFO - No background matches
+2025-04-18 02:37:09,477 - global_logger - INFO - No background matches
+2025-04-18 02:37:09,477 - global_logger - INFO - No background matches
+2025-04-18 02:37:09,477 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:09,477 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:09,477 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:12,830 - global_logger - INFO - No background matches
+2025-04-18 02:37:12,830 - global_logger - INFO - No background matches
+2025-04-18 02:37:12,830 - global_logger - INFO - No background matches
+2025-04-18 02:37:12,831 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:12,831 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:12,831 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:16,147 - global_logger - INFO - No background matches
+2025-04-18 02:37:16,147 - global_logger - INFO - No background matches
+2025-04-18 02:37:16,147 - global_logger - INFO - No background matches
+2025-04-18 02:37:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:19,440 - global_logger - INFO - No background matches
+2025-04-18 02:37:19,440 - global_logger - INFO - No background matches
+2025-04-18 02:37:19,440 - global_logger - INFO - No background matches
+2025-04-18 02:37:19,440 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:19,440 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:19,440 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:22,705 - global_logger - INFO - No background matches
+2025-04-18 02:37:22,705 - global_logger - INFO - No background matches
+2025-04-18 02:37:22,705 - global_logger - INFO - No background matches
+2025-04-18 02:37:22,706 - global_logger - INFO - p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999174172194682
+2025-04-18 02:37:22,706 - global_logger - INFO - Calculated distance: 0.0008262828003892417
+2025-04-18 02:37:22,706 - global_logger - INFO - Calculated distance: 0.0008262828003892417
+2025-04-18 02:37:22,706 - global_logger - INFO - Calculated distance: 0.0008262828003892417
+2025-04-18 02:37:22,706 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:22,706 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:22,706 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:22,706 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:22,706 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:22,706 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:22,707 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:22,707 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:22,707 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:22,707 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:22,707 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:22,707 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:26,396 - global_logger - INFO - No background matches
+2025-04-18 02:37:26,396 - global_logger - INFO - No background matches
+2025-04-18 02:37:26,396 - global_logger - INFO - No background matches
+2025-04-18 02:37:26,397 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:26,397 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:26,397 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:30,055 - global_logger - INFO - No background matches
+2025-04-18 02:37:30,055 - global_logger - INFO - No background matches
+2025-04-18 02:37:30,055 - global_logger - INFO - No background matches
+2025-04-18 02:37:30,056 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:30,056 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:30,056 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:33,744 - global_logger - INFO - No background matches
+2025-04-18 02:37:33,744 - global_logger - INFO - No background matches
+2025-04-18 02:37:33,744 - global_logger - INFO - No background matches
+2025-04-18 02:37:33,744 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:33,744 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:33,744 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:37,408 - global_logger - INFO - No background matches
+2025-04-18 02:37:37,408 - global_logger - INFO - No background matches
+2025-04-18 02:37:37,408 - global_logger - INFO - No background matches
+2025-04-18 02:37:37,408 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:37,408 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:37,408 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:41,070 - global_logger - INFO - No background matches
+2025-04-18 02:37:41,070 - global_logger - INFO - No background matches
+2025-04-18 02:37:41,070 - global_logger - INFO - No background matches
+2025-04-18 02:37:41,071 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:41,071 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:41,071 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:44,753 - global_logger - INFO - No background matches
+2025-04-18 02:37:44,753 - global_logger - INFO - No background matches
+2025-04-18 02:37:44,753 - global_logger - INFO - No background matches
+2025-04-18 02:37:44,754 - global_logger - INFO - p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990184842215475
+2025-04-18 02:37:44,754 - global_logger - INFO - Calculated distance: 0.000982158588154054
+2025-04-18 02:37:44,754 - global_logger - INFO - Calculated distance: 0.000982158588154054
+2025-04-18 02:37:44,754 - global_logger - INFO - Calculated distance: 0.000982158588154054
+2025-04-18 02:37:44,755 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:44,755 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:44,755 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:37:44,755 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:44,755 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:44,755 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:37:44,755 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:44,755 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:44,755 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:37:44,755 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:44,755 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:44,755 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:47,993 - global_logger - INFO - No background matches
+2025-04-18 02:37:47,993 - global_logger - INFO - No background matches
+2025-04-18 02:37:47,993 - global_logger - INFO - No background matches
+2025-04-18 02:37:47,993 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:47,993 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:47,993 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:51,279 - global_logger - INFO - No background matches
+2025-04-18 02:37:51,279 - global_logger - INFO - No background matches
+2025-04-18 02:37:51,279 - global_logger - INFO - No background matches
+2025-04-18 02:37:51,280 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:51,280 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:51,280 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:54,539 - global_logger - INFO - No background matches
+2025-04-18 02:37:54,539 - global_logger - INFO - No background matches
+2025-04-18 02:37:54,539 - global_logger - INFO - No background matches
+2025-04-18 02:37:54,540 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:54,540 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:54,540 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:57,781 - global_logger - INFO - No background matches
+2025-04-18 02:37:57,781 - global_logger - INFO - No background matches
+2025-04-18 02:37:57,781 - global_logger - INFO - No background matches
+2025-04-18 02:37:57,781 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:57,781 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:37:57,781 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:01,009 - global_logger - INFO - No background matches
+2025-04-18 02:38:01,009 - global_logger - INFO - No background matches
+2025-04-18 02:38:01,009 - global_logger - INFO - No background matches
+2025-04-18 02:38:01,009 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:01,009 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:01,009 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:04,256 - global_logger - INFO - No background matches
+2025-04-18 02:38:04,256 - global_logger - INFO - No background matches
+2025-04-18 02:38:04,256 - global_logger - INFO - No background matches
+2025-04-18 02:38:04,258 - global_logger - INFO - p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999369006177558
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculated distance: 0.0006312594068837144
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculated distance: 0.0006312594068837144
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculated distance: 0.0006312594068837144
+2025-04-18 02:38:04,258 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:04,258 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:04,258 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:04,258 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:04,258 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:04,258 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:04,258 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:04,259 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:04,259 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:04,259 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:07,376 - global_logger - INFO - No background matches
+2025-04-18 02:38:07,376 - global_logger - INFO - No background matches
+2025-04-18 02:38:07,376 - global_logger - INFO - No background matches
+2025-04-18 02:38:07,376 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:07,376 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:07,376 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:10,502 - global_logger - INFO - No background matches
+2025-04-18 02:38:10,502 - global_logger - INFO - No background matches
+2025-04-18 02:38:10,502 - global_logger - INFO - No background matches
+2025-04-18 02:38:10,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:10,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:10,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:13,625 - global_logger - INFO - No background matches
+2025-04-18 02:38:13,625 - global_logger - INFO - No background matches
+2025-04-18 02:38:13,625 - global_logger - INFO - No background matches
+2025-04-18 02:38:13,625 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:13,625 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:13,625 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:16,732 - global_logger - INFO - No background matches
+2025-04-18 02:38:16,732 - global_logger - INFO - No background matches
+2025-04-18 02:38:16,732 - global_logger - INFO - No background matches
+2025-04-18 02:38:16,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:16,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:16,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:19,832 - global_logger - INFO - No background matches
+2025-04-18 02:38:19,832 - global_logger - INFO - No background matches
+2025-04-18 02:38:19,832 - global_logger - INFO - No background matches
+2025-04-18 02:38:19,833 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:19,833 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:19,833 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:22,965 - global_logger - INFO - No background matches
+2025-04-18 02:38:22,965 - global_logger - INFO - No background matches
+2025-04-18 02:38:22,965 - global_logger - INFO - No background matches
+2025-04-18 02:38:22,966 - global_logger - INFO - p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9988348698432887
+2025-04-18 02:38:22,966 - global_logger - INFO - Calculated distance: 0.0011660361139614625
+2025-04-18 02:38:22,966 - global_logger - INFO - Calculated distance: 0.0011660361139614625
+2025-04-18 02:38:22,966 - global_logger - INFO - Calculated distance: 0.0011660361139614625
+2025-04-18 02:38:22,966 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:22,966 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:22,966 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:22,966 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:22,966 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:22,966 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:22,967 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:22,967 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:22,967 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:22,967 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:22,967 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:22,967 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:26,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:26,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:26,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:26,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:26,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:26,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:29,494 - global_logger - INFO - No background matches
+2025-04-18 02:38:29,494 - global_logger - INFO - No background matches
+2025-04-18 02:38:29,494 - global_logger - INFO - No background matches
+2025-04-18 02:38:29,494 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:29,494 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:29,494 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:32,748 - global_logger - INFO - No background matches
+2025-04-18 02:38:32,748 - global_logger - INFO - No background matches
+2025-04-18 02:38:32,748 - global_logger - INFO - No background matches
+2025-04-18 02:38:32,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:32,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:32,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:36,021 - global_logger - INFO - No background matches
+2025-04-18 02:38:36,021 - global_logger - INFO - No background matches
+2025-04-18 02:38:36,021 - global_logger - INFO - No background matches
+2025-04-18 02:38:36,022 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:36,022 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:36,022 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:39,275 - global_logger - INFO - No background matches
+2025-04-18 02:38:39,275 - global_logger - INFO - No background matches
+2025-04-18 02:38:39,275 - global_logger - INFO - No background matches
+2025-04-18 02:38:39,276 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:39,276 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:39,276 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:42,541 - global_logger - INFO - No background matches
+2025-04-18 02:38:42,541 - global_logger - INFO - No background matches
+2025-04-18 02:38:42,541 - global_logger - INFO - No background matches
+2025-04-18 02:38:42,543 - global_logger - INFO - p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991931313692689
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculated distance: 0.0008073029669303254
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculated distance: 0.0008073029669303254
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculated distance: 0.0008073029669303254
+2025-04-18 02:38:42,543 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:42,543 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:42,543 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:38:42,543 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:42,543 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:42,543 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:42,543 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:38:42,544 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:42,544 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:42,544 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:45,962 - global_logger - INFO - No background matches
+2025-04-18 02:38:45,962 - global_logger - INFO - No background matches
+2025-04-18 02:38:45,962 - global_logger - INFO - No background matches
+2025-04-18 02:38:45,963 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:45,963 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:45,963 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:49,371 - global_logger - INFO - No background matches
+2025-04-18 02:38:49,371 - global_logger - INFO - No background matches
+2025-04-18 02:38:49,371 - global_logger - INFO - No background matches
+2025-04-18 02:38:49,371 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:49,371 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:49,371 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:52,817 - global_logger - INFO - No background matches
+2025-04-18 02:38:52,817 - global_logger - INFO - No background matches
+2025-04-18 02:38:52,817 - global_logger - INFO - No background matches
+2025-04-18 02:38:52,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:52,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:52,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:56,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:56,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:56,226 - global_logger - INFO - No background matches
+2025-04-18 02:38:56,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:56,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:56,226 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:59,646 - global_logger - INFO - No background matches
+2025-04-18 02:38:59,646 - global_logger - INFO - No background matches
+2025-04-18 02:38:59,646 - global_logger - INFO - No background matches
+2025-04-18 02:38:59,647 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:59,647 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:38:59,647 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:03,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:03,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:03,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:03,062 - global_logger - INFO - p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.999335979167799
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculated distance: 0.0006643149549273624
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculated distance: 0.0006643149549273624
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculated distance: 0.0006643149549273624
+2025-04-18 02:39:03,062 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:03,062 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:03,062 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:03,062 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:03,062 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:03,062 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:03,062 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:03,063 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:03,063 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:03,063 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:06,504 - global_logger - INFO - No background matches
+2025-04-18 02:39:06,504 - global_logger - INFO - No background matches
+2025-04-18 02:39:06,504 - global_logger - INFO - No background matches
+2025-04-18 02:39:06,505 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:06,505 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:06,505 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:09,948 - global_logger - INFO - No background matches
+2025-04-18 02:39:09,948 - global_logger - INFO - No background matches
+2025-04-18 02:39:09,948 - global_logger - INFO - No background matches
+2025-04-18 02:39:09,949 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:09,949 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:09,949 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:13,360 - global_logger - INFO - No background matches
+2025-04-18 02:39:13,360 - global_logger - INFO - No background matches
+2025-04-18 02:39:13,360 - global_logger - INFO - No background matches
+2025-04-18 02:39:13,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:13,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:13,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:16,765 - global_logger - INFO - No background matches
+2025-04-18 02:39:16,765 - global_logger - INFO - No background matches
+2025-04-18 02:39:16,765 - global_logger - INFO - No background matches
+2025-04-18 02:39:16,765 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:16,765 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:16,765 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:20,176 - global_logger - INFO - No background matches
+2025-04-18 02:39:20,176 - global_logger - INFO - No background matches
+2025-04-18 02:39:20,176 - global_logger - INFO - No background matches
+2025-04-18 02:39:20,177 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:20,177 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:20,177 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:23,602 - global_logger - INFO - No background matches
+2025-04-18 02:39:23,602 - global_logger - INFO - No background matches
+2025-04-18 02:39:23,602 - global_logger - INFO - No background matches
+2025-04-18 02:39:23,603 - global_logger - INFO - p_hat: 0.9985740606548499
+2025-04-18 02:39:23,603 - global_logger - INFO - p_hat: 0.9985740606548499
+2025-04-18 02:39:23,603 - global_logger - INFO - p_hat: 0.9985740606548499
+2025-04-18 02:39:23,603 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985740606548499
+2025-04-18 02:39:23,603 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985740606548499
+2025-04-18 02:39:23,603 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985740606548499
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculated distance: 0.0014272966010910938
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculated distance: 0.0014272966010910938
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculated distance: 0.0014272966010910938
+2025-04-18 02:39:23,604 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:23,604 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:23,604 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:23,604 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:23,604 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:23,604 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:23,604 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:23,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:23,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:23,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:27,086 - global_logger - INFO - No background matches
+2025-04-18 02:39:27,086 - global_logger - INFO - No background matches
+2025-04-18 02:39:27,086 - global_logger - INFO - No background matches
+2025-04-18 02:39:27,086 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:27,086 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:27,086 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:30,562 - global_logger - INFO - No background matches
+2025-04-18 02:39:30,562 - global_logger - INFO - No background matches
+2025-04-18 02:39:30,562 - global_logger - INFO - No background matches
+2025-04-18 02:39:30,563 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:30,563 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:30,563 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:34,080 - global_logger - INFO - No background matches
+2025-04-18 02:39:34,080 - global_logger - INFO - No background matches
+2025-04-18 02:39:34,080 - global_logger - INFO - No background matches
+2025-04-18 02:39:34,081 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:34,081 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:34,081 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:37,560 - global_logger - INFO - No background matches
+2025-04-18 02:39:37,560 - global_logger - INFO - No background matches
+2025-04-18 02:39:37,560 - global_logger - INFO - No background matches
+2025-04-18 02:39:37,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:37,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:37,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:41,030 - global_logger - INFO - No background matches
+2025-04-18 02:39:41,030 - global_logger - INFO - No background matches
+2025-04-18 02:39:41,030 - global_logger - INFO - No background matches
+2025-04-18 02:39:41,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:41,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:41,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:44,501 - global_logger - INFO - No background matches
+2025-04-18 02:39:44,501 - global_logger - INFO - No background matches
+2025-04-18 02:39:44,501 - global_logger - INFO - No background matches
+2025-04-18 02:39:44,502 - global_logger - INFO - p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984362750702174
+2025-04-18 02:39:44,502 - global_logger - INFO - Calculated distance: 0.0015653573563178
+2025-04-18 02:39:44,502 - global_logger - INFO - Calculated distance: 0.0015653573563178
+2025-04-18 02:39:44,502 - global_logger - INFO - Calculated distance: 0.0015653573563178
+2025-04-18 02:39:44,502 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:44,502 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:44,502 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:39:44,503 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:44,503 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:44,503 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:39:44,503 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:44,503 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:44,503 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:39:44,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:44,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:44,503 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:48,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:48,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:48,061 - global_logger - INFO - No background matches
+2025-04-18 02:39:48,061 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:48,061 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:48,061 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:51,610 - global_logger - INFO - No background matches
+2025-04-18 02:39:51,610 - global_logger - INFO - No background matches
+2025-04-18 02:39:51,610 - global_logger - INFO - No background matches
+2025-04-18 02:39:51,610 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:51,610 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:51,610 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:55,161 - global_logger - INFO - No background matches
+2025-04-18 02:39:55,161 - global_logger - INFO - No background matches
+2025-04-18 02:39:55,161 - global_logger - INFO - No background matches
+2025-04-18 02:39:55,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:55,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:55,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:58,724 - global_logger - INFO - No background matches
+2025-04-18 02:39:58,724 - global_logger - INFO - No background matches
+2025-04-18 02:39:58,724 - global_logger - INFO - No background matches
+2025-04-18 02:39:58,725 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:58,725 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:39:58,725 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:02,266 - global_logger - INFO - No background matches
+2025-04-18 02:40:02,266 - global_logger - INFO - No background matches
+2025-04-18 02:40:02,266 - global_logger - INFO - No background matches
+2025-04-18 02:40:02,267 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:02,267 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:02,267 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:05,815 - global_logger - INFO - No background matches
+2025-04-18 02:40:05,815 - global_logger - INFO - No background matches
+2025-04-18 02:40:05,815 - global_logger - INFO - No background matches
+2025-04-18 02:40:05,816 - global_logger - INFO - p_hat: 0.9986919562286906
+2025-04-18 02:40:05,816 - global_logger - INFO - p_hat: 0.9986919562286906
+2025-04-18 02:40:05,816 - global_logger - INFO - p_hat: 0.9986919562286906
+2025-04-18 02:40:05,817 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9986919562286906
+2025-04-18 02:40:05,817 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9986919562286906
+2025-04-18 02:40:05,817 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9986919562286906
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculated distance: 0.0013091857516279505
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculated distance: 0.0013091857516279505
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculated distance: 0.0013091857516279505
+2025-04-18 02:40:05,817 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:05,817 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:05,817 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:05,817 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:05,817 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:05,817 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:05,817 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:05,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:05,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:05,817 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:09,271 - global_logger - INFO - No background matches
+2025-04-18 02:40:09,271 - global_logger - INFO - No background matches
+2025-04-18 02:40:09,271 - global_logger - INFO - No background matches
+2025-04-18 02:40:09,272 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:09,272 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:09,272 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:12,712 - global_logger - INFO - No background matches
+2025-04-18 02:40:12,712 - global_logger - INFO - No background matches
+2025-04-18 02:40:12,712 - global_logger - INFO - No background matches
+2025-04-18 02:40:12,713 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:12,713 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:12,713 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:16,148 - global_logger - INFO - No background matches
+2025-04-18 02:40:16,148 - global_logger - INFO - No background matches
+2025-04-18 02:40:16,148 - global_logger - INFO - No background matches
+2025-04-18 02:40:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:16,148 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:19,583 - global_logger - INFO - No background matches
+2025-04-18 02:40:19,583 - global_logger - INFO - No background matches
+2025-04-18 02:40:19,583 - global_logger - INFO - No background matches
+2025-04-18 02:40:19,584 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:19,584 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:19,584 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:23,035 - global_logger - INFO - No background matches
+2025-04-18 02:40:23,035 - global_logger - INFO - No background matches
+2025-04-18 02:40:23,035 - global_logger - INFO - No background matches
+2025-04-18 02:40:23,036 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:23,036 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:23,036 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:26,491 - global_logger - INFO - No background matches
+2025-04-18 02:40:26,491 - global_logger - INFO - No background matches
+2025-04-18 02:40:26,491 - global_logger - INFO - No background matches
+2025-04-18 02:40:26,492 - global_logger - INFO - p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993398435592408
+2025-04-18 02:40:26,492 - global_logger - INFO - Calculated distance: 0.0006604471490452467
+2025-04-18 02:40:26,492 - global_logger - INFO - Calculated distance: 0.0006604471490452467
+2025-04-18 02:40:26,492 - global_logger - INFO - Calculated distance: 0.0006604471490452467
+2025-04-18 02:40:26,493 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:26,493 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:26,493 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:26,493 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:26,493 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:26,493 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:26,493 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:26,493 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:26,493 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:26,493 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:26,493 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:26,493 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:29,929 - global_logger - INFO - No background matches
+2025-04-18 02:40:29,929 - global_logger - INFO - No background matches
+2025-04-18 02:40:29,929 - global_logger - INFO - No background matches
+2025-04-18 02:40:29,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:29,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:29,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:33,344 - global_logger - INFO - No background matches
+2025-04-18 02:40:33,344 - global_logger - INFO - No background matches
+2025-04-18 02:40:33,344 - global_logger - INFO - No background matches
+2025-04-18 02:40:33,344 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:33,344 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:33,344 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:36,760 - global_logger - INFO - No background matches
+2025-04-18 02:40:36,760 - global_logger - INFO - No background matches
+2025-04-18 02:40:36,760 - global_logger - INFO - No background matches
+2025-04-18 02:40:36,761 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:36,761 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:36,761 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:40,174 - global_logger - INFO - No background matches
+2025-04-18 02:40:40,174 - global_logger - INFO - No background matches
+2025-04-18 02:40:40,174 - global_logger - INFO - No background matches
+2025-04-18 02:40:40,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:40,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:40,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:43,590 - global_logger - INFO - No background matches
+2025-04-18 02:40:43,590 - global_logger - INFO - No background matches
+2025-04-18 02:40:43,590 - global_logger - INFO - No background matches
+2025-04-18 02:40:43,591 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:43,591 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:43,591 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:47,004 - global_logger - INFO - No background matches
+2025-04-18 02:40:47,004 - global_logger - INFO - No background matches
+2025-04-18 02:40:47,004 - global_logger - INFO - No background matches
+2025-04-18 02:40:47,005 - global_logger - INFO - p_hat: 0.9985832446650273
+2025-04-18 02:40:47,005 - global_logger - INFO - p_hat: 0.9985832446650273
+2025-04-18 02:40:47,005 - global_logger - INFO - p_hat: 0.9985832446650273
+2025-04-18 02:40:47,005 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985832446650273
+2025-04-18 02:40:47,005 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985832446650273
+2025-04-18 02:40:47,005 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985832446650273
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculated distance: 0.0014180951529751352
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculated distance: 0.0014180951529751352
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculated distance: 0.0014180951529751352
+2025-04-18 02:40:47,006 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:47,006 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:47,006 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:40:47,006 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:47,006 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:47,006 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:47,006 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:40:47,006 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:47,006 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:47,006 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:50,455 - global_logger - INFO - No background matches
+2025-04-18 02:40:50,455 - global_logger - INFO - No background matches
+2025-04-18 02:40:50,455 - global_logger - INFO - No background matches
+2025-04-18 02:40:50,456 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:50,456 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:50,456 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:53,896 - global_logger - INFO - No background matches
+2025-04-18 02:40:53,896 - global_logger - INFO - No background matches
+2025-04-18 02:40:53,896 - global_logger - INFO - No background matches
+2025-04-18 02:40:53,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:53,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:53,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:57,363 - global_logger - INFO - No background matches
+2025-04-18 02:40:57,363 - global_logger - INFO - No background matches
+2025-04-18 02:40:57,363 - global_logger - INFO - No background matches
+2025-04-18 02:40:57,364 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:57,364 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:40:57,364 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:00,796 - global_logger - INFO - No background matches
+2025-04-18 02:41:00,796 - global_logger - INFO - No background matches
+2025-04-18 02:41:00,796 - global_logger - INFO - No background matches
+2025-04-18 02:41:00,796 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:00,796 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:00,796 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:04,234 - global_logger - INFO - No background matches
+2025-04-18 02:41:04,234 - global_logger - INFO - No background matches
+2025-04-18 02:41:04,234 - global_logger - INFO - No background matches
+2025-04-18 02:41:04,234 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:04,234 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:04,234 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:07,669 - global_logger - INFO - No background matches
+2025-04-18 02:41:07,669 - global_logger - INFO - No background matches
+2025-04-18 02:41:07,669 - global_logger - INFO - No background matches
+2025-04-18 02:41:07,670 - global_logger - INFO - p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984468514144966
+2025-04-18 02:41:07,670 - global_logger - INFO - Calculated distance: 0.0015547589895259174
+2025-04-18 02:41:07,670 - global_logger - INFO - Calculated distance: 0.0015547589895259174
+2025-04-18 02:41:07,670 - global_logger - INFO - Calculated distance: 0.0015547589895259174
+2025-04-18 02:41:07,670 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:07,670 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:07,670 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:07,671 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:07,671 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:07,671 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:07,671 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:07,671 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:07,671 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:07,671 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:07,671 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:07,671 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:11,188 - global_logger - INFO - No background matches
+2025-04-18 02:41:11,188 - global_logger - INFO - No background matches
+2025-04-18 02:41:11,188 - global_logger - INFO - No background matches
+2025-04-18 02:41:11,189 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:11,189 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:11,189 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:14,696 - global_logger - INFO - No background matches
+2025-04-18 02:41:14,696 - global_logger - INFO - No background matches
+2025-04-18 02:41:14,696 - global_logger - INFO - No background matches
+2025-04-18 02:41:14,696 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:14,696 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:14,696 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:18,203 - global_logger - INFO - No background matches
+2025-04-18 02:41:18,203 - global_logger - INFO - No background matches
+2025-04-18 02:41:18,203 - global_logger - INFO - No background matches
+2025-04-18 02:41:18,203 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:18,203 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:18,203 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:21,708 - global_logger - INFO - No background matches
+2025-04-18 02:41:21,708 - global_logger - INFO - No background matches
+2025-04-18 02:41:21,708 - global_logger - INFO - No background matches
+2025-04-18 02:41:21,708 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:21,708 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:21,708 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:25,227 - global_logger - INFO - No background matches
+2025-04-18 02:41:25,227 - global_logger - INFO - No background matches
+2025-04-18 02:41:25,227 - global_logger - INFO - No background matches
+2025-04-18 02:41:25,228 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:25,228 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:25,228 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:28,772 - global_logger - INFO - No background matches
+2025-04-18 02:41:28,772 - global_logger - INFO - No background matches
+2025-04-18 02:41:28,772 - global_logger - INFO - No background matches
+2025-04-18 02:41:28,773 - global_logger - INFO - p_hat: 0.9996846314831108
+2025-04-18 02:41:28,773 - global_logger - INFO - p_hat: 0.9996846314831108
+2025-04-18 02:41:28,773 - global_logger - INFO - p_hat: 0.9996846314831108
+2025-04-18 02:41:28,773 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996846314831108
+2025-04-18 02:41:28,773 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996846314831108
+2025-04-18 02:41:28,773 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996846314831108
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculated distance: 0.00031543484034972906
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculated distance: 0.00031543484034972906
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculated distance: 0.00031543484034972906
+2025-04-18 02:41:28,774 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:28,774 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:28,774 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:28,774 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:28,774 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:28,774 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:28,774 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:28,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:28,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:28,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:32,361 - global_logger - INFO - No background matches
+2025-04-18 02:41:32,361 - global_logger - INFO - No background matches
+2025-04-18 02:41:32,361 - global_logger - INFO - No background matches
+2025-04-18 02:41:32,362 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:32,362 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:32,362 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:35,959 - global_logger - INFO - No background matches
+2025-04-18 02:41:35,959 - global_logger - INFO - No background matches
+2025-04-18 02:41:35,959 - global_logger - INFO - No background matches
+2025-04-18 02:41:35,959 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:35,959 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:35,959 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:39,560 - global_logger - INFO - No background matches
+2025-04-18 02:41:39,560 - global_logger - INFO - No background matches
+2025-04-18 02:41:39,560 - global_logger - INFO - No background matches
+2025-04-18 02:41:39,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:39,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:39,561 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:43,170 - global_logger - INFO - No background matches
+2025-04-18 02:41:43,170 - global_logger - INFO - No background matches
+2025-04-18 02:41:43,170 - global_logger - INFO - No background matches
+2025-04-18 02:41:43,171 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:43,171 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:43,171 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:46,759 - global_logger - INFO - No background matches
+2025-04-18 02:41:46,759 - global_logger - INFO - No background matches
+2025-04-18 02:41:46,759 - global_logger - INFO - No background matches
+2025-04-18 02:41:46,759 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:46,759 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:46,759 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:50,358 - global_logger - INFO - No background matches
+2025-04-18 02:41:50,358 - global_logger - INFO - No background matches
+2025-04-18 02:41:50,358 - global_logger - INFO - No background matches
+2025-04-18 02:41:50,359 - global_logger - INFO - p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9996547432805503
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculated distance: 0.0003453362119813793
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculated distance: 0.0003453362119813793
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculated distance: 0.0003453362119813793
+2025-04-18 02:41:50,359 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:50,359 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:50,359 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:41:50,359 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:50,359 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:50,359 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:50,359 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:41:50,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:50,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:50,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:53,876 - global_logger - INFO - No background matches
+2025-04-18 02:41:53,876 - global_logger - INFO - No background matches
+2025-04-18 02:41:53,876 - global_logger - INFO - No background matches
+2025-04-18 02:41:53,877 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:53,877 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:53,877 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:57,394 - global_logger - INFO - No background matches
+2025-04-18 02:41:57,394 - global_logger - INFO - No background matches
+2025-04-18 02:41:57,394 - global_logger - INFO - No background matches
+2025-04-18 02:41:57,395 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:57,395 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:41:57,395 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:00,901 - global_logger - INFO - No background matches
+2025-04-18 02:42:00,901 - global_logger - INFO - No background matches
+2025-04-18 02:42:00,901 - global_logger - INFO - No background matches
+2025-04-18 02:42:00,901 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:00,901 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:00,901 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:04,394 - global_logger - INFO - No background matches
+2025-04-18 02:42:04,394 - global_logger - INFO - No background matches
+2025-04-18 02:42:04,394 - global_logger - INFO - No background matches
+2025-04-18 02:42:04,394 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:04,394 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:04,394 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:07,904 - global_logger - INFO - No background matches
+2025-04-18 02:42:07,904 - global_logger - INFO - No background matches
+2025-04-18 02:42:07,904 - global_logger - INFO - No background matches
+2025-04-18 02:42:07,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:07,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:07,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:11,400 - global_logger - INFO - No background matches
+2025-04-18 02:42:11,400 - global_logger - INFO - No background matches
+2025-04-18 02:42:11,400 - global_logger - INFO - No background matches
+2025-04-18 02:42:11,401 - global_logger - INFO - p_hat: 0.9984513441051263
+2025-04-18 02:42:11,401 - global_logger - INFO - p_hat: 0.9984513441051263
+2025-04-18 02:42:11,401 - global_logger - INFO - p_hat: 0.9984513441051263
+2025-04-18 02:42:11,402 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984513441051263
+2025-04-18 02:42:11,402 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984513441051263
+2025-04-18 02:42:11,402 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984513441051263
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculated distance: 0.0015502569893466656
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculated distance: 0.0015502569893466656
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculated distance: 0.0015502569893466656
+2025-04-18 02:42:11,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:11,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:11,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:11,402 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:11,402 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:11,402 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:11,402 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:11,403 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:11,403 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:11,403 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:14,628 - global_logger - INFO - No background matches
+2025-04-18 02:42:14,628 - global_logger - INFO - No background matches
+2025-04-18 02:42:14,628 - global_logger - INFO - No background matches
+2025-04-18 02:42:14,629 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:14,629 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:14,629 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:17,836 - global_logger - INFO - No background matches
+2025-04-18 02:42:17,836 - global_logger - INFO - No background matches
+2025-04-18 02:42:17,836 - global_logger - INFO - No background matches
+2025-04-18 02:42:17,836 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:17,836 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:17,836 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:21,040 - global_logger - INFO - No background matches
+2025-04-18 02:42:21,040 - global_logger - INFO - No background matches
+2025-04-18 02:42:21,040 - global_logger - INFO - No background matches
+2025-04-18 02:42:21,041 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:21,041 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:21,041 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:24,263 - global_logger - INFO - No background matches
+2025-04-18 02:42:24,263 - global_logger - INFO - No background matches
+2025-04-18 02:42:24,263 - global_logger - INFO - No background matches
+2025-04-18 02:42:24,263 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:24,263 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:24,263 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:27,469 - global_logger - INFO - No background matches
+2025-04-18 02:42:27,469 - global_logger - INFO - No background matches
+2025-04-18 02:42:27,469 - global_logger - INFO - No background matches
+2025-04-18 02:42:27,469 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:27,469 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:27,469 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:30,676 - global_logger - INFO - No background matches
+2025-04-18 02:42:30,676 - global_logger - INFO - No background matches
+2025-04-18 02:42:30,676 - global_logger - INFO - No background matches
+2025-04-18 02:42:30,677 - global_logger - INFO - p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993634676881408
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculated distance: 0.0006368025803790941
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculated distance: 0.0006368025803790941
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculated distance: 0.0006368025803790941
+2025-04-18 02:42:30,677 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:30,677 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:30,677 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:30,677 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:30,677 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:30,677 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:30,677 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:30,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:30,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:30,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:34,147 - global_logger - INFO - No background matches
+2025-04-18 02:42:34,147 - global_logger - INFO - No background matches
+2025-04-18 02:42:34,147 - global_logger - INFO - No background matches
+2025-04-18 02:42:34,147 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:34,147 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:34,147 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:37,623 - global_logger - INFO - No background matches
+2025-04-18 02:42:37,623 - global_logger - INFO - No background matches
+2025-04-18 02:42:37,623 - global_logger - INFO - No background matches
+2025-04-18 02:42:37,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:37,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:37,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:41,105 - global_logger - INFO - No background matches
+2025-04-18 02:42:41,105 - global_logger - INFO - No background matches
+2025-04-18 02:42:41,105 - global_logger - INFO - No background matches
+2025-04-18 02:42:41,105 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:41,105 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:41,105 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:44,568 - global_logger - INFO - No background matches
+2025-04-18 02:42:44,568 - global_logger - INFO - No background matches
+2025-04-18 02:42:44,568 - global_logger - INFO - No background matches
+2025-04-18 02:42:44,569 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:44,569 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:44,569 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:48,018 - global_logger - INFO - No background matches
+2025-04-18 02:42:48,018 - global_logger - INFO - No background matches
+2025-04-18 02:42:48,018 - global_logger - INFO - No background matches
+2025-04-18 02:42:48,019 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:48,019 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:48,019 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:51,481 - global_logger - INFO - No background matches
+2025-04-18 02:42:51,481 - global_logger - INFO - No background matches
+2025-04-18 02:42:51,481 - global_logger - INFO - No background matches
+2025-04-18 02:42:51,482 - global_logger - INFO - p_hat: 0.9984306850272251
+2025-04-18 02:42:51,482 - global_logger - INFO - p_hat: 0.9984306850272251
+2025-04-18 02:42:51,482 - global_logger - INFO - p_hat: 0.9984306850272251
+2025-04-18 02:42:51,483 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984306850272251
+2025-04-18 02:42:51,483 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984306850272251
+2025-04-18 02:42:51,483 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984306850272251
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculated distance: 0.0015709590996337128
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculated distance: 0.0015709590996337128
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculated distance: 0.0015709590996337128
+2025-04-18 02:42:51,483 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:51,483 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:51,483 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:42:51,483 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:51,483 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:51,483 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:51,483 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:42:51,483 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:51,483 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:51,483 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:55,171 - global_logger - INFO - No background matches
+2025-04-18 02:42:55,171 - global_logger - INFO - No background matches
+2025-04-18 02:42:55,171 - global_logger - INFO - No background matches
+2025-04-18 02:42:55,172 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:55,172 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:55,172 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:58,877 - global_logger - INFO - No background matches
+2025-04-18 02:42:58,877 - global_logger - INFO - No background matches
+2025-04-18 02:42:58,877 - global_logger - INFO - No background matches
+2025-04-18 02:42:58,878 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:58,878 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:42:58,878 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:02,556 - global_logger - INFO - No background matches
+2025-04-18 02:43:02,556 - global_logger - INFO - No background matches
+2025-04-18 02:43:02,556 - global_logger - INFO - No background matches
+2025-04-18 02:43:02,557 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:02,557 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:02,557 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:06,237 - global_logger - INFO - No background matches
+2025-04-18 02:43:06,237 - global_logger - INFO - No background matches
+2025-04-18 02:43:06,237 - global_logger - INFO - No background matches
+2025-04-18 02:43:06,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:06,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:06,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:09,896 - global_logger - INFO - No background matches
+2025-04-18 02:43:09,896 - global_logger - INFO - No background matches
+2025-04-18 02:43:09,896 - global_logger - INFO - No background matches
+2025-04-18 02:43:09,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:09,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:09,897 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:13,594 - global_logger - INFO - No background matches
+2025-04-18 02:43:13,594 - global_logger - INFO - No background matches
+2025-04-18 02:43:13,594 - global_logger - INFO - No background matches
+2025-04-18 02:43:13,595 - global_logger - INFO - p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9990098442112006
+2025-04-18 02:43:13,595 - global_logger - INFO - Calculated distance: 0.0009908099702904388
+2025-04-18 02:43:13,595 - global_logger - INFO - Calculated distance: 0.0009908099702904388
+2025-04-18 02:43:13,595 - global_logger - INFO - Calculated distance: 0.0009908099702904388
+2025-04-18 02:43:13,596 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:13,596 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:13,596 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:13,596 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:13,596 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:13,596 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:13,596 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:13,596 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:13,596 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:13,596 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:13,596 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:13,596 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:17,087 - global_logger - INFO - No background matches
+2025-04-18 02:43:17,087 - global_logger - INFO - No background matches
+2025-04-18 02:43:17,087 - global_logger - INFO - No background matches
+2025-04-18 02:43:17,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:17,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:17,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:20,567 - global_logger - INFO - No background matches
+2025-04-18 02:43:20,567 - global_logger - INFO - No background matches
+2025-04-18 02:43:20,567 - global_logger - INFO - No background matches
+2025-04-18 02:43:20,568 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:20,568 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:20,568 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:24,022 - global_logger - INFO - No background matches
+2025-04-18 02:43:24,022 - global_logger - INFO - No background matches
+2025-04-18 02:43:24,022 - global_logger - INFO - No background matches
+2025-04-18 02:43:24,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:24,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:24,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:27,472 - global_logger - INFO - No background matches
+2025-04-18 02:43:27,472 - global_logger - INFO - No background matches
+2025-04-18 02:43:27,472 - global_logger - INFO - No background matches
+2025-04-18 02:43:27,473 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:27,473 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:27,473 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:30,934 - global_logger - INFO - No background matches
+2025-04-18 02:43:30,934 - global_logger - INFO - No background matches
+2025-04-18 02:43:30,934 - global_logger - INFO - No background matches
+2025-04-18 02:43:30,934 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:30,934 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:30,934 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:34,413 - global_logger - INFO - No background matches
+2025-04-18 02:43:34,413 - global_logger - INFO - No background matches
+2025-04-18 02:43:34,413 - global_logger - INFO - No background matches
+2025-04-18 02:43:34,414 - global_logger - INFO - p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998466062682791
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculated distance: 0.0015355081018010224
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculated distance: 0.0015355081018010224
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculated distance: 0.0015355081018010224
+2025-04-18 02:43:34,414 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:34,414 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:34,414 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:34,414 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:34,414 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:34,414 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:34,414 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:34,415 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:34,415 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:34,415 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:37,485 - global_logger - INFO - No background matches
+2025-04-18 02:43:37,485 - global_logger - INFO - No background matches
+2025-04-18 02:43:37,485 - global_logger - INFO - No background matches
+2025-04-18 02:43:37,486 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:37,486 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:37,486 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:40,545 - global_logger - INFO - No background matches
+2025-04-18 02:43:40,545 - global_logger - INFO - No background matches
+2025-04-18 02:43:40,545 - global_logger - INFO - No background matches
+2025-04-18 02:43:40,546 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:40,546 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:40,546 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:43,624 - global_logger - INFO - No background matches
+2025-04-18 02:43:43,624 - global_logger - INFO - No background matches
+2025-04-18 02:43:43,624 - global_logger - INFO - No background matches
+2025-04-18 02:43:43,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:43,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:43,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:46,675 - global_logger - INFO - No background matches
+2025-04-18 02:43:46,675 - global_logger - INFO - No background matches
+2025-04-18 02:43:46,675 - global_logger - INFO - No background matches
+2025-04-18 02:43:46,676 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:46,676 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:46,676 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:49,749 - global_logger - INFO - No background matches
+2025-04-18 02:43:49,749 - global_logger - INFO - No background matches
+2025-04-18 02:43:49,749 - global_logger - INFO - No background matches
+2025-04-18 02:43:49,749 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:49,749 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:49,749 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:52,826 - global_logger - INFO - No background matches
+2025-04-18 02:43:52,826 - global_logger - INFO - No background matches
+2025-04-18 02:43:52,826 - global_logger - INFO - No background matches
+2025-04-18 02:43:52,827 - global_logger - INFO - p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9972436620780764
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculated distance: 0.0027614152982029117
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculated distance: 0.0027614152982029117
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculated distance: 0.0027614152982029117
+2025-04-18 02:43:52,827 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:52,827 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:52,827 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:43:52,827 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:52,827 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:52,827 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:52,827 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:43:52,828 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:52,828 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:52,828 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:56,211 - global_logger - INFO - No background matches
+2025-04-18 02:43:56,211 - global_logger - INFO - No background matches
+2025-04-18 02:43:56,211 - global_logger - INFO - No background matches
+2025-04-18 02:43:56,212 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:56,212 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:56,212 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:59,574 - global_logger - INFO - No background matches
+2025-04-18 02:43:59,574 - global_logger - INFO - No background matches
+2025-04-18 02:43:59,574 - global_logger - INFO - No background matches
+2025-04-18 02:43:59,574 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:59,574 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:43:59,574 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:02,930 - global_logger - INFO - No background matches
+2025-04-18 02:44:02,930 - global_logger - INFO - No background matches
+2025-04-18 02:44:02,930 - global_logger - INFO - No background matches
+2025-04-18 02:44:02,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:02,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:02,930 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:06,300 - global_logger - INFO - No background matches
+2025-04-18 02:44:06,300 - global_logger - INFO - No background matches
+2025-04-18 02:44:06,300 - global_logger - INFO - No background matches
+2025-04-18 02:44:06,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:06,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:06,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:09,664 - global_logger - INFO - No background matches
+2025-04-18 02:44:09,664 - global_logger - INFO - No background matches
+2025-04-18 02:44:09,664 - global_logger - INFO - No background matches
+2025-04-18 02:44:09,664 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:09,664 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:09,664 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:13,016 - global_logger - INFO - No background matches
+2025-04-18 02:44:13,016 - global_logger - INFO - No background matches
+2025-04-18 02:44:13,016 - global_logger - INFO - No background matches
+2025-04-18 02:44:13,017 - global_logger - INFO - p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993152377965328
+2025-04-18 02:44:13,017 - global_logger - INFO - Calculated distance: 0.0006850749933868245
+2025-04-18 02:44:13,017 - global_logger - INFO - Calculated distance: 0.0006850749933868245
+2025-04-18 02:44:13,017 - global_logger - INFO - Calculated distance: 0.0006850749933868245
+2025-04-18 02:44:13,017 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:13,017 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:13,017 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:13,018 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:13,018 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:13,018 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:13,018 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:13,018 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:13,018 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:13,018 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:13,018 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:13,018 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:16,677 - global_logger - INFO - No background matches
+2025-04-18 02:44:16,677 - global_logger - INFO - No background matches
+2025-04-18 02:44:16,677 - global_logger - INFO - No background matches
+2025-04-18 02:44:16,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:16,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:16,678 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:20,359 - global_logger - INFO - No background matches
+2025-04-18 02:44:20,359 - global_logger - INFO - No background matches
+2025-04-18 02:44:20,359 - global_logger - INFO - No background matches
+2025-04-18 02:44:20,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:20,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:20,360 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:24,007 - global_logger - INFO - No background matches
+2025-04-18 02:44:24,007 - global_logger - INFO - No background matches
+2025-04-18 02:44:24,007 - global_logger - INFO - No background matches
+2025-04-18 02:44:24,008 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:24,008 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:24,008 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:27,662 - global_logger - INFO - No background matches
+2025-04-18 02:44:27,662 - global_logger - INFO - No background matches
+2025-04-18 02:44:27,662 - global_logger - INFO - No background matches
+2025-04-18 02:44:27,663 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:27,663 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:27,663 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:31,299 - global_logger - INFO - No background matches
+2025-04-18 02:44:31,299 - global_logger - INFO - No background matches
+2025-04-18 02:44:31,299 - global_logger - INFO - No background matches
+2025-04-18 02:44:31,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:31,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:31,300 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:34,956 - global_logger - INFO - No background matches
+2025-04-18 02:44:34,956 - global_logger - INFO - No background matches
+2025-04-18 02:44:34,956 - global_logger - INFO - No background matches
+2025-04-18 02:44:34,957 - global_logger - INFO - p_hat: 0.998982921407513
+2025-04-18 02:44:34,957 - global_logger - INFO - p_hat: 0.998982921407513
+2025-04-18 02:44:34,957 - global_logger - INFO - p_hat: 0.998982921407513
+2025-04-18 02:44:34,958 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998982921407513
+2025-04-18 02:44:34,958 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998982921407513
+2025-04-18 02:44:34,958 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998982921407513
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculated distance: 0.0010177688491734053
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculated distance: 0.0010177688491734053
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculated distance: 0.0010177688491734053
+2025-04-18 02:44:34,958 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:34,958 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:34,958 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:34,958 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:34,958 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:34,958 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:34,958 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:34,958 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:34,958 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:34,958 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:38,277 - global_logger - INFO - No background matches
+2025-04-18 02:44:38,277 - global_logger - INFO - No background matches
+2025-04-18 02:44:38,277 - global_logger - INFO - No background matches
+2025-04-18 02:44:38,278 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:38,278 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:38,278 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:41,604 - global_logger - INFO - No background matches
+2025-04-18 02:44:41,604 - global_logger - INFO - No background matches
+2025-04-18 02:44:41,604 - global_logger - INFO - No background matches
+2025-04-18 02:44:41,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:41,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:41,604 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:44,921 - global_logger - INFO - No background matches
+2025-04-18 02:44:44,921 - global_logger - INFO - No background matches
+2025-04-18 02:44:44,921 - global_logger - INFO - No background matches
+2025-04-18 02:44:44,921 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:44,921 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:44,921 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:48,236 - global_logger - INFO - No background matches
+2025-04-18 02:44:48,236 - global_logger - INFO - No background matches
+2025-04-18 02:44:48,236 - global_logger - INFO - No background matches
+2025-04-18 02:44:48,237 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:48,237 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:48,237 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:51,566 - global_logger - INFO - No background matches
+2025-04-18 02:44:51,566 - global_logger - INFO - No background matches
+2025-04-18 02:44:51,566 - global_logger - INFO - No background matches
+2025-04-18 02:44:51,567 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:51,567 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:51,567 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:54,898 - global_logger - INFO - No background matches
+2025-04-18 02:44:54,898 - global_logger - INFO - No background matches
+2025-04-18 02:44:54,898 - global_logger - INFO - No background matches
+2025-04-18 02:44:54,899 - global_logger - INFO - p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9991948647039507
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculated distance: 0.00080556776748299
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculated distance: 0.00080556776748299
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculated distance: 0.00080556776748299
+2025-04-18 02:44:54,899 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:54,899 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:54,899 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:44:54,899 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:54,899 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:54,899 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:54,899 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:44:54,900 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:54,900 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:54,900 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:58,341 - global_logger - INFO - No background matches
+2025-04-18 02:44:58,341 - global_logger - INFO - No background matches
+2025-04-18 02:44:58,341 - global_logger - INFO - No background matches
+2025-04-18 02:44:58,341 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:58,341 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:44:58,341 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:01,775 - global_logger - INFO - No background matches
+2025-04-18 02:45:01,775 - global_logger - INFO - No background matches
+2025-04-18 02:45:01,775 - global_logger - INFO - No background matches
+2025-04-18 02:45:01,775 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:01,775 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:01,775 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:05,222 - global_logger - INFO - No background matches
+2025-04-18 02:45:05,222 - global_logger - INFO - No background matches
+2025-04-18 02:45:05,222 - global_logger - INFO - No background matches
+2025-04-18 02:45:05,223 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:05,223 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:05,223 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:08,676 - global_logger - INFO - No background matches
+2025-04-18 02:45:08,676 - global_logger - INFO - No background matches
+2025-04-18 02:45:08,676 - global_logger - INFO - No background matches
+2025-04-18 02:45:08,677 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:08,677 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:08,677 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:12,099 - global_logger - INFO - No background matches
+2025-04-18 02:45:12,099 - global_logger - INFO - No background matches
+2025-04-18 02:45:12,099 - global_logger - INFO - No background matches
+2025-04-18 02:45:12,100 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:12,100 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:12,100 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:15,537 - global_logger - INFO - No background matches
+2025-04-18 02:45:15,537 - global_logger - INFO - No background matches
+2025-04-18 02:45:15,537 - global_logger - INFO - No background matches
+2025-04-18 02:45:15,538 - global_logger - INFO - p_hat: 0.9993380552332473
+2025-04-18 02:45:15,538 - global_logger - INFO - p_hat: 0.9993380552332473
+2025-04-18 02:45:15,538 - global_logger - INFO - p_hat: 0.9993380552332473
+2025-04-18 02:45:15,539 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993380552332473
+2025-04-18 02:45:15,539 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993380552332473
+2025-04-18 02:45:15,539 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993380552332473
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculated distance: 0.0006622370526611926
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculated distance: 0.0006622370526611926
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculated distance: 0.0006622370526611926
+2025-04-18 02:45:15,539 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:15,539 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:15,539 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:15,539 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:15,539 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:15,539 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:15,539 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:15,539 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:15,539 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:15,539 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:19,003 - global_logger - INFO - No background matches
+2025-04-18 02:45:19,003 - global_logger - INFO - No background matches
+2025-04-18 02:45:19,003 - global_logger - INFO - No background matches
+2025-04-18 02:45:19,004 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:19,004 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:19,004 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:22,458 - global_logger - INFO - No background matches
+2025-04-18 02:45:22,458 - global_logger - INFO - No background matches
+2025-04-18 02:45:22,458 - global_logger - INFO - No background matches
+2025-04-18 02:45:22,458 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:22,458 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:22,458 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:25,897 - global_logger - INFO - No background matches
+2025-04-18 02:45:25,897 - global_logger - INFO - No background matches
+2025-04-18 02:45:25,897 - global_logger - INFO - No background matches
+2025-04-18 02:45:25,898 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:25,898 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:25,898 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:29,354 - global_logger - INFO - No background matches
+2025-04-18 02:45:29,354 - global_logger - INFO - No background matches
+2025-04-18 02:45:29,354 - global_logger - INFO - No background matches
+2025-04-18 02:45:29,354 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:29,354 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:29,354 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:32,785 - global_logger - INFO - No background matches
+2025-04-18 02:45:32,785 - global_logger - INFO - No background matches
+2025-04-18 02:45:32,785 - global_logger - INFO - No background matches
+2025-04-18 02:45:32,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:32,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:32,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:36,236 - global_logger - INFO - No background matches
+2025-04-18 02:45:36,236 - global_logger - INFO - No background matches
+2025-04-18 02:45:36,236 - global_logger - INFO - No background matches
+2025-04-18 02:45:36,237 - global_logger - INFO - p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9994174231249764
+2025-04-18 02:45:36,237 - global_logger - INFO - Calculated distance: 0.0005828032561386291
+2025-04-18 02:45:36,237 - global_logger - INFO - Calculated distance: 0.0005828032561386291
+2025-04-18 02:45:36,237 - global_logger - INFO - Calculated distance: 0.0005828032561386291
+2025-04-18 02:45:36,238 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:36,238 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:36,238 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:36,238 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:36,238 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:36,238 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:36,238 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:36,238 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:36,238 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:36,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:36,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:36,238 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:39,629 - global_logger - INFO - No background matches
+2025-04-18 02:45:39,629 - global_logger - INFO - No background matches
+2025-04-18 02:45:39,629 - global_logger - INFO - No background matches
+2025-04-18 02:45:39,630 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:39,630 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:39,630 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:43,022 - global_logger - INFO - No background matches
+2025-04-18 02:45:43,022 - global_logger - INFO - No background matches
+2025-04-18 02:45:43,022 - global_logger - INFO - No background matches
+2025-04-18 02:45:43,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:43,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:43,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:46,408 - global_logger - INFO - No background matches
+2025-04-18 02:45:46,408 - global_logger - INFO - No background matches
+2025-04-18 02:45:46,408 - global_logger - INFO - No background matches
+2025-04-18 02:45:46,409 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:46,409 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:46,409 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:49,791 - global_logger - INFO - No background matches
+2025-04-18 02:45:49,791 - global_logger - INFO - No background matches
+2025-04-18 02:45:49,791 - global_logger - INFO - No background matches
+2025-04-18 02:45:49,792 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:49,792 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:49,792 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:53,163 - global_logger - INFO - No background matches
+2025-04-18 02:45:53,163 - global_logger - INFO - No background matches
+2025-04-18 02:45:53,163 - global_logger - INFO - No background matches
+2025-04-18 02:45:53,164 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:53,164 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:53,164 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:56,592 - global_logger - INFO - No background matches
+2025-04-18 02:45:56,592 - global_logger - INFO - No background matches
+2025-04-18 02:45:56,592 - global_logger - INFO - No background matches
+2025-04-18 02:45:56,593 - global_logger - INFO - p_hat: 0.9993741393393268
+2025-04-18 02:45:56,593 - global_logger - INFO - p_hat: 0.9993741393393268
+2025-04-18 02:45:56,593 - global_logger - INFO - p_hat: 0.9993741393393268
+2025-04-18 02:45:56,593 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993741393393268
+2025-04-18 02:45:56,593 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993741393393268
+2025-04-18 02:45:56,593 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9993741393393268
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculated distance: 0.0006261219404162924
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculated distance: 0.0006261219404162924
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculated distance: 0.0006261219404162924
+2025-04-18 02:45:56,594 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:56,594 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:56,594 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:45:56,594 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:56,594 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:56,594 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:56,594 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:45:56,594 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:56,594 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:45:56,594 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:00,037 - global_logger - INFO - No background matches
+2025-04-18 02:46:00,037 - global_logger - INFO - No background matches
+2025-04-18 02:46:00,037 - global_logger - INFO - No background matches
+2025-04-18 02:46:00,037 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:00,037 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:00,037 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:03,476 - global_logger - INFO - No background matches
+2025-04-18 02:46:03,476 - global_logger - INFO - No background matches
+2025-04-18 02:46:03,476 - global_logger - INFO - No background matches
+2025-04-18 02:46:03,476 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:03,476 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:03,476 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:06,905 - global_logger - INFO - No background matches
+2025-04-18 02:46:06,905 - global_logger - INFO - No background matches
+2025-04-18 02:46:06,905 - global_logger - INFO - No background matches
+2025-04-18 02:46:06,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:06,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:06,905 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:10,332 - global_logger - INFO - No background matches
+2025-04-18 02:46:10,332 - global_logger - INFO - No background matches
+2025-04-18 02:46:10,332 - global_logger - INFO - No background matches
+2025-04-18 02:46:10,332 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:10,332 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:10,332 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:13,733 - global_logger - INFO - No background matches
+2025-04-18 02:46:13,733 - global_logger - INFO - No background matches
+2025-04-18 02:46:13,733 - global_logger - INFO - No background matches
+2025-04-18 02:46:13,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:13,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:13,733 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:17,165 - global_logger - INFO - No background matches
+2025-04-18 02:46:17,165 - global_logger - INFO - No background matches
+2025-04-18 02:46:17,165 - global_logger - INFO - No background matches
+2025-04-18 02:46:17,166 - global_logger - INFO - p_hat: 0.998444100111159
+2025-04-18 02:46:17,166 - global_logger - INFO - p_hat: 0.998444100111159
+2025-04-18 02:46:17,166 - global_logger - INFO - p_hat: 0.998444100111159
+2025-04-18 02:46:17,167 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998444100111159
+2025-04-18 02:46:17,167 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998444100111159
+2025-04-18 02:46:17,167 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.998444100111159
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculated distance: 0.0015575160073314945
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculated distance: 0.0015575160073314945
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculated distance: 0.0015575160073314945
+2025-04-18 02:46:17,167 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:17,167 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:17,167 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:17,167 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:17,167 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:17,167 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:17,167 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:17,167 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:17,167 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:17,167 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:20,774 - global_logger - INFO - No background matches
+2025-04-18 02:46:20,774 - global_logger - INFO - No background matches
+2025-04-18 02:46:20,774 - global_logger - INFO - No background matches
+2025-04-18 02:46:20,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:20,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:20,774 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:24,348 - global_logger - INFO - No background matches
+2025-04-18 02:46:24,348 - global_logger - INFO - No background matches
+2025-04-18 02:46:24,348 - global_logger - INFO - No background matches
+2025-04-18 02:46:24,349 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:24,349 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:24,349 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:28,075 - global_logger - INFO - No background matches
+2025-04-18 02:46:28,075 - global_logger - INFO - No background matches
+2025-04-18 02:46:28,075 - global_logger - INFO - No background matches
+2025-04-18 02:46:28,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:28,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:28,076 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:31,624 - global_logger - INFO - No background matches
+2025-04-18 02:46:31,624 - global_logger - INFO - No background matches
+2025-04-18 02:46:31,624 - global_logger - INFO - No background matches
+2025-04-18 02:46:31,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:31,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:31,624 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:35,157 - global_logger - INFO - No background matches
+2025-04-18 02:46:35,157 - global_logger - INFO - No background matches
+2025-04-18 02:46:35,157 - global_logger - INFO - No background matches
+2025-04-18 02:46:35,157 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:35,157 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:35,157 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:38,697 - global_logger - INFO - No background matches
+2025-04-18 02:46:38,697 - global_logger - INFO - No background matches
+2025-04-18 02:46:38,697 - global_logger - INFO - No background matches
+2025-04-18 02:46:38,698 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:46:38,698 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:46:38,698 - global_logger - INFO - p_hat: 0.9984404291536344
+2025-04-18 02:46:38,699 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:46:38,699 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:46:38,699 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984404291536344
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculated distance: 0.0015611946052321991
+2025-04-18 02:46:38,699 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:38,699 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:38,699 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:38,699 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:38,699 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:38,699 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:38,699 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:38,700 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:38,700 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:38,700 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:42,030 - global_logger - INFO - No background matches
+2025-04-18 02:46:42,030 - global_logger - INFO - No background matches
+2025-04-18 02:46:42,030 - global_logger - INFO - No background matches
+2025-04-18 02:46:42,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:42,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:42,031 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:45,372 - global_logger - INFO - No background matches
+2025-04-18 02:46:45,372 - global_logger - INFO - No background matches
+2025-04-18 02:46:45,372 - global_logger - INFO - No background matches
+2025-04-18 02:46:45,372 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:45,372 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:45,372 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:48,696 - global_logger - INFO - No background matches
+2025-04-18 02:46:48,696 - global_logger - INFO - No background matches
+2025-04-18 02:46:48,696 - global_logger - INFO - No background matches
+2025-04-18 02:46:48,697 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:48,697 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:48,697 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:52,022 - global_logger - INFO - No background matches
+2025-04-18 02:46:52,022 - global_logger - INFO - No background matches
+2025-04-18 02:46:52,022 - global_logger - INFO - No background matches
+2025-04-18 02:46:52,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:52,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:52,023 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:55,358 - global_logger - INFO - No background matches
+2025-04-18 02:46:55,358 - global_logger - INFO - No background matches
+2025-04-18 02:46:55,358 - global_logger - INFO - No background matches
+2025-04-18 02:46:55,359 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:55,359 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:55,359 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:58,700 - global_logger - INFO - No background matches
+2025-04-18 02:46:58,700 - global_logger - INFO - No background matches
+2025-04-18 02:46:58,700 - global_logger - INFO - No background matches
+2025-04-18 02:46:58,701 - global_logger - INFO - p_hat: 0.9983502681145315
+2025-04-18 02:46:58,701 - global_logger - INFO - p_hat: 0.9983502681145315
+2025-04-18 02:46:58,701 - global_logger - INFO - p_hat: 0.9983502681145315
+2025-04-18 02:46:58,702 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983502681145315
+2025-04-18 02:46:58,702 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983502681145315
+2025-04-18 02:46:58,702 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983502681145315
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculated distance: 0.0016515489607641667
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculated distance: 0.0016515489607641667
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculated distance: 0.0016515489607641667
+2025-04-18 02:46:58,702 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:58,702 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:58,702 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:46:58,702 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:58,702 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:58,702 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:58,702 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:46:58,702 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:58,702 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:46:58,702 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:02,395 - global_logger - INFO - No background matches
+2025-04-18 02:47:02,395 - global_logger - INFO - No background matches
+2025-04-18 02:47:02,395 - global_logger - INFO - No background matches
+2025-04-18 02:47:02,396 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:02,396 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:02,396 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:06,086 - global_logger - INFO - No background matches
+2025-04-18 02:47:06,086 - global_logger - INFO - No background matches
+2025-04-18 02:47:06,086 - global_logger - INFO - No background matches
+2025-04-18 02:47:06,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:06,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:06,087 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:09,784 - global_logger - INFO - No background matches
+2025-04-18 02:47:09,784 - global_logger - INFO - No background matches
+2025-04-18 02:47:09,784 - global_logger - INFO - No background matches
+2025-04-18 02:47:09,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:09,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:09,785 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:13,464 - global_logger - INFO - No background matches
+2025-04-18 02:47:13,464 - global_logger - INFO - No background matches
+2025-04-18 02:47:13,464 - global_logger - INFO - No background matches
+2025-04-18 02:47:13,465 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:13,465 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:13,465 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:17,161 - global_logger - INFO - No background matches
+2025-04-18 02:47:17,161 - global_logger - INFO - No background matches
+2025-04-18 02:47:17,161 - global_logger - INFO - No background matches
+2025-04-18 02:47:17,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:17,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:17,161 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:20,853 - global_logger - INFO - No background matches
+2025-04-18 02:47:20,853 - global_logger - INFO - No background matches
+2025-04-18 02:47:20,853 - global_logger - INFO - No background matches
+2025-04-18 02:47:20,854 - global_logger - INFO - p_hat: 0.9984381751788932
+2025-04-18 02:47:20,854 - global_logger - INFO - p_hat: 0.9984381751788932
+2025-04-18 02:47:20,854 - global_logger - INFO - p_hat: 0.9984381751788932
+2025-04-18 02:47:20,855 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984381751788932
+2025-04-18 02:47:20,855 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984381751788932
+2025-04-18 02:47:20,855 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9984381751788932
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculated distance: 0.0015634532801187219
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculated distance: 0.0015634532801187219
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculated distance: 0.0015634532801187219
+2025-04-18 02:47:20,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:20,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:20,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:20,855 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:20,855 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:20,855 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:20,855 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:20,855 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:20,855 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:20,855 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:24,160 - global_logger - INFO - No background matches
+2025-04-18 02:47:24,160 - global_logger - INFO - No background matches
+2025-04-18 02:47:24,160 - global_logger - INFO - No background matches
+2025-04-18 02:47:24,160 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:24,160 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:24,160 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:27,463 - global_logger - INFO - No background matches
+2025-04-18 02:47:27,463 - global_logger - INFO - No background matches
+2025-04-18 02:47:27,463 - global_logger - INFO - No background matches
+2025-04-18 02:47:27,464 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:27,464 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:27,464 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:30,747 - global_logger - INFO - No background matches
+2025-04-18 02:47:30,747 - global_logger - INFO - No background matches
+2025-04-18 02:47:30,747 - global_logger - INFO - No background matches
+2025-04-18 02:47:30,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:30,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:30,748 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:34,049 - global_logger - INFO - No background matches
+2025-04-18 02:47:34,049 - global_logger - INFO - No background matches
+2025-04-18 02:47:34,049 - global_logger - INFO - No background matches
+2025-04-18 02:47:34,050 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:34,050 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:34,050 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:37,326 - global_logger - INFO - No background matches
+2025-04-18 02:47:37,326 - global_logger - INFO - No background matches
+2025-04-18 02:47:37,326 - global_logger - INFO - No background matches
+2025-04-18 02:47:37,327 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:37,327 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:37,327 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:40,604 - global_logger - INFO - No background matches
+2025-04-18 02:47:40,604 - global_logger - INFO - No background matches
+2025-04-18 02:47:40,604 - global_logger - INFO - No background matches
+2025-04-18 02:47:40,605 - global_logger - INFO - p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9983399741560247
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculated distance: 0.0016618656831722527
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculated distance: 0.0016618656831722527
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculated distance: 0.0016618656831722527
+2025-04-18 02:47:40,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:40,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:40,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:40,605 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:40,605 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:40,605 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:40,605 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:40,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:40,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:40,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:43,799 - global_logger - INFO - No background matches
+2025-04-18 02:47:43,799 - global_logger - INFO - No background matches
+2025-04-18 02:47:43,799 - global_logger - INFO - No background matches
+2025-04-18 02:47:43,799 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:43,799 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:43,799 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:47,005 - global_logger - INFO - No background matches
+2025-04-18 02:47:47,005 - global_logger - INFO - No background matches
+2025-04-18 02:47:47,005 - global_logger - INFO - No background matches
+2025-04-18 02:47:47,005 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:47,005 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:47,005 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:50,202 - global_logger - INFO - No background matches
+2025-04-18 02:47:50,202 - global_logger - INFO - No background matches
+2025-04-18 02:47:50,202 - global_logger - INFO - No background matches
+2025-04-18 02:47:50,202 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:50,202 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:50,202 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:53,383 - global_logger - INFO - No background matches
+2025-04-18 02:47:53,383 - global_logger - INFO - No background matches
+2025-04-18 02:47:53,383 - global_logger - INFO - No background matches
+2025-04-18 02:47:53,384 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:53,384 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:53,384 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:56,605 - global_logger - INFO - No background matches
+2025-04-18 02:47:56,605 - global_logger - INFO - No background matches
+2025-04-18 02:47:56,605 - global_logger - INFO - No background matches
+2025-04-18 02:47:56,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:56,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:56,606 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:59,802 - global_logger - INFO - No background matches
+2025-04-18 02:47:59,802 - global_logger - INFO - No background matches
+2025-04-18 02:47:59,802 - global_logger - INFO - No background matches
+2025-04-18 02:47:59,803 - global_logger - INFO - p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9982511732902936
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculated distance: 0.0017508688147091585
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculated distance: 0.0017508688147091585
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculated distance: 0.0017508688147091585
+2025-04-18 02:47:59,803 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:59,803 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:59,803 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-04-18 02:47:59,803 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:59,803 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:59,803 - global_logger - INFO - k_min: 19, k_max: 24
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:59,803 - global_logger - INFO - Calculating p_hat
+2025-04-18 02:47:59,804 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:59,804 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:47:59,804 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:03,173 - global_logger - INFO - No background matches
+2025-04-18 02:48:03,173 - global_logger - INFO - No background matches
+2025-04-18 02:48:03,173 - global_logger - INFO - No background matches
+2025-04-18 02:48:03,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:03,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:03,174 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:06,612 - global_logger - INFO - No background matches
+2025-04-18 02:48:06,612 - global_logger - INFO - No background matches
+2025-04-18 02:48:06,612 - global_logger - INFO - No background matches
+2025-04-18 02:48:06,613 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:06,613 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:06,613 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:10,002 - global_logger - INFO - No background matches
+2025-04-18 02:48:10,002 - global_logger - INFO - No background matches
+2025-04-18 02:48:10,002 - global_logger - INFO - No background matches
+2025-04-18 02:48:10,002 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:10,002 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:10,002 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:13,352 - global_logger - INFO - No background matches
+2025-04-18 02:48:13,352 - global_logger - INFO - No background matches
+2025-04-18 02:48:13,352 - global_logger - INFO - No background matches
+2025-04-18 02:48:13,352 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:13,352 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:13,352 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:16,654 - global_logger - INFO - No background matches
+2025-04-18 02:48:16,654 - global_logger - INFO - No background matches
+2025-04-18 02:48:16,654 - global_logger - INFO - No background matches
+2025-04-18 02:48:16,655 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:16,655 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-04-18 02:48:16,655 - global_logger - INFO - Using start_ry_matches to calculate F(k)
