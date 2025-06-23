@@ -1,0 +1,304 @@
+2025-06-14 14:15:36,449 - global_logger - INFO - Starting show F(k) curve
+2025-06-14 14:15:36,449 - global_logger - INFO - Starting show F(k) curve
+2025-06-14 14:15:36,449 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-06-14 14:15:36,449 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-06-14 14:15:36,453 - global_logger - INFO - Loading sequences from ../dataset/test_dataset/test.fasta
+2025-06-14 14:15:36,453 - global_logger - INFO - Loading sequences from ../dataset/test_dataset/test.fasta
+2025-06-14 14:15:36,541 - global_logger - INFO - Loaded 2 sequences
+2025-06-14 14:15:36,541 - global_logger - INFO - Loaded 2 sequences
+2025-06-14 14:15:36,541 - global_logger - INFO - Saving results to ../result/show_F_k_curve_20250614_141536_start_ry_matches_no_background_matches_True_True.png
+2025-06-14 14:15:36,541 - global_logger - INFO - Saving results to ../result/show_F_k_curve_20250614_141536_start_ry_matches_no_background_matches_True_True.png
+2025-06-14 14:15:36,541 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:15:36,541 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:15:36,541 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:15:36,541 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:15:36,541 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:15:36,541 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:15:36,541 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:15:36,541 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:15:36,541 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:15:36,541 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:15:36,547 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:36,547 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:38,865 - global_logger - INFO - No background matches
+2025-06-14 14:15:38,865 - global_logger - INFO - No background matches
+2025-06-14 14:15:38,866 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:38,866 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:41,201 - global_logger - INFO - No background matches
+2025-06-14 14:15:41,201 - global_logger - INFO - No background matches
+2025-06-14 14:15:41,202 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:41,202 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:43,510 - global_logger - INFO - No background matches
+2025-06-14 14:15:43,510 - global_logger - INFO - No background matches
+2025-06-14 14:15:43,510 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:43,510 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:45,846 - global_logger - INFO - No background matches
+2025-06-14 14:15:45,846 - global_logger - INFO - No background matches
+2025-06-14 14:15:45,847 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:45,847 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:48,166 - global_logger - INFO - No background matches
+2025-06-14 14:15:48,166 - global_logger - INFO - No background matches
+2025-06-14 14:15:48,166 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:48,166 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:50,495 - global_logger - INFO - No background matches
+2025-06-14 14:15:50,495 - global_logger - INFO - No background matches
+2025-06-14 14:15:50,495 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:50,495 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:52,891 - global_logger - INFO - No background matches
+2025-06-14 14:15:52,891 - global_logger - INFO - No background matches
+2025-06-14 14:15:52,892 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:52,892 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:55,468 - global_logger - INFO - No background matches
+2025-06-14 14:15:55,468 - global_logger - INFO - No background matches
+2025-06-14 14:15:55,468 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:55,468 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:58,503 - global_logger - INFO - No background matches
+2025-06-14 14:15:58,503 - global_logger - INFO - No background matches
+2025-06-14 14:15:58,504 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:15:58,504 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:02,000 - global_logger - INFO - No background matches
+2025-06-14 14:16:02,000 - global_logger - INFO - No background matches
+2025-06-14 14:16:02,000 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:02,000 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:05,696 - global_logger - INFO - No background matches
+2025-06-14 14:16:05,696 - global_logger - INFO - No background matches
+2025-06-14 14:16:05,696 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:05,696 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:09,401 - global_logger - INFO - No background matches
+2025-06-14 14:16:09,401 - global_logger - INFO - No background matches
+2025-06-14 14:16:09,402 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:09,402 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:13,038 - global_logger - INFO - No background matches
+2025-06-14 14:16:13,038 - global_logger - INFO - No background matches
+2025-06-14 14:16:13,038 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:13,038 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:16,636 - global_logger - INFO - No background matches
+2025-06-14 14:16:16,636 - global_logger - INFO - No background matches
+2025-06-14 14:16:16,637 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:16,637 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:20,288 - global_logger - INFO - No background matches
+2025-06-14 14:16:20,288 - global_logger - INFO - No background matches
+2025-06-14 14:16:20,289 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:20,289 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:23,876 - global_logger - INFO - No background matches
+2025-06-14 14:16:23,876 - global_logger - INFO - No background matches
+2025-06-14 14:16:23,876 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:23,876 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:27,426 - global_logger - INFO - No background matches
+2025-06-14 14:16:27,426 - global_logger - INFO - No background matches
+2025-06-14 14:16:27,427 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:27,427 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:30,985 - global_logger - INFO - No background matches
+2025-06-14 14:16:30,985 - global_logger - INFO - No background matches
+2025-06-14 14:16:30,986 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:30,986 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:34,304 - global_logger - INFO - No background matches
+2025-06-14 14:16:34,304 - global_logger - INFO - No background matches
+2025-06-14 14:16:34,305 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:34,305 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:37,438 - global_logger - INFO - No background matches
+2025-06-14 14:16:37,438 - global_logger - INFO - No background matches
+2025-06-14 14:16:37,439 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:37,439 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:40,573 - global_logger - INFO - No background matches
+2025-06-14 14:16:40,573 - global_logger - INFO - No background matches
+2025-06-14 14:16:40,574 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:40,574 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:43,942 - global_logger - INFO - No background matches
+2025-06-14 14:16:43,942 - global_logger - INFO - No background matches
+2025-06-14 14:16:43,943 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:43,943 - global_logger - INFO - Using start_ry_matches to calculate F(k)
+2025-06-14 14:16:47,601 - global_logger - INFO - No background matches
+2025-06-14 14:16:47,601 - global_logger - INFO - No background matches
+2025-06-14 14:16:47,602 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:16:47,602 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:16:47,603 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:47,603 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:50,416 - global_logger - INFO - No background matches
+2025-06-14 14:16:50,416 - global_logger - INFO - No background matches
+2025-06-14 14:16:50,417 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:50,417 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:53,219 - global_logger - INFO - No background matches
+2025-06-14 14:16:53,219 - global_logger - INFO - No background matches
+2025-06-14 14:16:53,220 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:53,220 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:56,094 - global_logger - INFO - No background matches
+2025-06-14 14:16:56,094 - global_logger - INFO - No background matches
+2025-06-14 14:16:56,095 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:56,095 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:58,784 - global_logger - INFO - No background matches
+2025-06-14 14:16:58,784 - global_logger - INFO - No background matches
+2025-06-14 14:16:58,785 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:16:58,785 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:01,538 - global_logger - INFO - No background matches
+2025-06-14 14:17:01,538 - global_logger - INFO - No background matches
+2025-06-14 14:17:01,538 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:01,538 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:04,423 - global_logger - INFO - No background matches
+2025-06-14 14:17:04,423 - global_logger - INFO - No background matches
+2025-06-14 14:17:04,423 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:04,423 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:07,506 - global_logger - INFO - No background matches
+2025-06-14 14:17:07,506 - global_logger - INFO - No background matches
+2025-06-14 14:17:07,507 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:07,507 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:11,364 - global_logger - INFO - No background matches
+2025-06-14 14:17:11,364 - global_logger - INFO - No background matches
+2025-06-14 14:17:11,364 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:11,364 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:16,513 - global_logger - INFO - No background matches
+2025-06-14 14:17:16,513 - global_logger - INFO - No background matches
+2025-06-14 14:17:16,514 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:16,514 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:22,704 - global_logger - INFO - No background matches
+2025-06-14 14:17:22,704 - global_logger - INFO - No background matches
+2025-06-14 14:17:22,705 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:22,705 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:29,742 - global_logger - INFO - No background matches
+2025-06-14 14:17:29,742 - global_logger - INFO - No background matches
+2025-06-14 14:17:29,743 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:29,743 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:35,899 - global_logger - INFO - No background matches
+2025-06-14 14:17:35,899 - global_logger - INFO - No background matches
+2025-06-14 14:17:35,900 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:35,900 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:41,948 - global_logger - INFO - No background matches
+2025-06-14 14:17:41,948 - global_logger - INFO - No background matches
+2025-06-14 14:17:41,949 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:41,949 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:48,058 - global_logger - INFO - No background matches
+2025-06-14 14:17:48,058 - global_logger - INFO - No background matches
+2025-06-14 14:17:48,058 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:48,058 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:54,163 - global_logger - INFO - No background matches
+2025-06-14 14:17:54,163 - global_logger - INFO - No background matches
+2025-06-14 14:17:54,164 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:17:54,164 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:00,124 - global_logger - INFO - No background matches
+2025-06-14 14:18:00,124 - global_logger - INFO - No background matches
+2025-06-14 14:18:00,125 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:00,125 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:05,995 - global_logger - INFO - No background matches
+2025-06-14 14:18:05,995 - global_logger - INFO - No background matches
+2025-06-14 14:18:05,996 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:05,996 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:11,902 - global_logger - INFO - No background matches
+2025-06-14 14:18:11,902 - global_logger - INFO - No background matches
+2025-06-14 14:18:11,903 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:11,903 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:17,860 - global_logger - INFO - No background matches
+2025-06-14 14:18:17,860 - global_logger - INFO - No background matches
+2025-06-14 14:18:17,861 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:17,861 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:23,765 - global_logger - INFO - No background matches
+2025-06-14 14:18:23,765 - global_logger - INFO - No background matches
+2025-06-14 14:18:23,765 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:23,765 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:29,693 - global_logger - INFO - No background matches
+2025-06-14 14:18:29,693 - global_logger - INFO - No background matches
+2025-06-14 14:18:29,693 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:29,693 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:35,497 - global_logger - INFO - No background matches
+2025-06-14 14:18:35,497 - global_logger - INFO - No background matches
+2025-06-14 14:18:35,497 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:35,497 - global_logger - INFO - Using basic kmer matches to calculate F(k)
+2025-06-14 14:18:41,456 - global_logger - INFO - No background matches
+2025-06-14 14:18:41,456 - global_logger - INFO - No background matches
+2025-06-14 14:18:41,483 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:18:41,483 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-14 14:18:41,483 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:18:41,483 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-14 14:18:41,483 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:18:41,483 - global_logger - INFO - Showing F(k) curve
+2025-06-14 14:18:41,483 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:41,483 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:43,686 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:43,686 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:46,316 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:46,316 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:48,521 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:48,521 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:51,143 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:51,143 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:53,338 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:53,338 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:55,967 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:55,967 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:18:58,195 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:18:58,195 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:00,873 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:00,873 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:03,099 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:03,099 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:05,821 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:05,821 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:08,043 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:08,043 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:10,874 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:10,874 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:13,116 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:13,116 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:16,175 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:16,175 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:18,547 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:18,547 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:22,065 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:22,065 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:24,643 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:24,643 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:29,545 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:29,545 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:32,420 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:32,420 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:38,087 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:38,087 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:41,097 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:41,097 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:46,886 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:46,886 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:49,823 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:49,823 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:55,571 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:55,571 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:19:58,467 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:19:58,467 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:03,896 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:03,896 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:06,784 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:06,784 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:12,219 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:12,219 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:15,088 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:15,088 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:20,461 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:20,461 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:23,415 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:23,415 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:28,952 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:28,952 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:31,863 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:31,863 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:37,287 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:37,287 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:40,150 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:40,150 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:45,560 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:45,560 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:48,428 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:48,428 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:53,921 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:53,921 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:20:56,792 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:20:56,792 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:02,351 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:02,351 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:05,219 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:05,219 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:10,697 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:10,697 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:13,573 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:13,573 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:19,033 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:19,033 - global_logger - INFO - Using start_rr_matches to calculate F(k)
+2025-06-14 14:21:21,948 - global_logger - INFO - Using basic kmer matches to calculate background matches
+2025-06-14 14:21:21,948 - global_logger - INFO - Using basic kmer matches to calculate background matches

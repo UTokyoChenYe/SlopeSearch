@@ -1,0 +1,14 @@
+2025-06-14 14:13:48,146 - global_logger - INFO - Starting show F(k) curve
+2025-06-14 14:13:48,146 - global_logger - INFO - Starting show F(k) curve
+2025-06-14 14:13:48,146 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-06-14 14:13:48,146 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-06-14 14:13:48,146 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../config/show_F_k_curve.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/start_show_F_k_curve.py", line 26, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../config/show_F_k_curve.yaml'
+2025-06-14 14:13:48,146 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../config/show_F_k_curve.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/start_show_F_k_curve.py", line 26, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../config/show_F_k_curve.yaml'

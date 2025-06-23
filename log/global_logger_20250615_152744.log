@@ -1,0 +1,81 @@
+2025-06-15 15:27:44,073 - global_logger - INFO - Starting AF project evaluation with start_ry_4_6_matches
+2025-06-15 15:27:44,073 - global_logger - INFO - Starting AF project evaluation with start_ry_4_6_matches
+2025-06-15 15:27:44,073 - global_logger - INFO - Starting AF project evaluation with start_ry_4_6_matches
+2025-06-15 15:27:44,073 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation_ry_4_6.yaml
+2025-06-15 15:27:44,073 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation_ry_4_6.yaml
+2025-06-15 15:27:44,073 - global_logger - INFO - Loading configuration from ../config/af_project_evaluation_ry_4_6.yaml
+2025-06-15 15:27:44,074 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-15 15:27:44,074 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-15 15:27:44,074 - global_logger - INFO - Loading sequences from ../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-15 15:27:45,068 - global_logger - INFO - Loaded 29 sequences
+2025-06-15 15:27:45,068 - global_logger - INFO - Loaded 29 sequences
+2025-06-15 15:27:45,068 - global_logger - INFO - Loaded 29 sequences
+2025-06-15 15:27:45,068 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250615_152745_start_ry_4_6_matches_no_background_matches_False_True.phy
+2025-06-15 15:27:45,068 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250615_152745_start_ry_4_6_matches_no_background_matches_False_True.phy
+2025-06-15 15:27:45,068 - global_logger - INFO - Saving results to ../result/af_project_evaluation_20250615_152745_start_ry_4_6_matches_no_background_matches_False_True.phy
+2025-06-15 15:27:45,068 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:27:45,068 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:27:45,068 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:27:45,068 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:27:45,068 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:27:45,068 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:27:45,068 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:27:45,068 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:27:45,068 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:27:45,072 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:27:45,072 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:27:45,072 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:29:06,215 - global_logger - INFO - No background matches
+2025-06-15 15:29:06,215 - global_logger - INFO - No background matches
+2025-06-15 15:29:06,215 - global_logger - INFO - No background matches
+2025-06-15 15:29:06,215 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:29:06,215 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:29:06,215 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:30:28,271 - global_logger - INFO - No background matches
+2025-06-15 15:30:28,271 - global_logger - INFO - No background matches
+2025-06-15 15:30:28,271 - global_logger - INFO - No background matches
+2025-06-15 15:30:28,272 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:30:28,272 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:30:28,272 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:31:51,670 - global_logger - INFO - No background matches
+2025-06-15 15:31:51,670 - global_logger - INFO - No background matches
+2025-06-15 15:31:51,670 - global_logger - INFO - No background matches
+2025-06-15 15:31:51,671 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:31:51,671 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:31:51,671 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:33:16,201 - global_logger - INFO - No background matches
+2025-06-15 15:33:16,201 - global_logger - INFO - No background matches
+2025-06-15 15:33:16,201 - global_logger - INFO - No background matches
+2025-06-15 15:33:16,202 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:33:16,202 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:33:16,202 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:34:42,274 - global_logger - INFO - No background matches
+2025-06-15 15:34:42,274 - global_logger - INFO - No background matches
+2025-06-15 15:34:42,274 - global_logger - INFO - No background matches
+2025-06-15 15:34:42,275 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:34:42,275 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:34:42,275 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:36:09,198 - global_logger - INFO - No background matches
+2025-06-15 15:36:09,198 - global_logger - INFO - No background matches
+2025-06-15 15:36:09,198 - global_logger - INFO - No background matches
+2025-06-15 15:36:09,228 - global_logger - INFO - p_hat: 0.9985750630864159
+2025-06-15 15:36:09,228 - global_logger - INFO - p_hat: 0.9985750630864159
+2025-06-15 15:36:09,228 - global_logger - INFO - p_hat: 0.9985750630864159
+2025-06-15 15:36:09,229 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985750630864159
+2025-06-15 15:36:09,229 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985750630864159
+2025-06-15 15:36:09,229 - global_logger - INFO - Estimating Jukes-Cantor distance for p_hat: 0.9985750630864159
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculated distance: 0.001426292260691705
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculated distance: 0.001426292260691705
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculated distance: 0.001426292260691705
+2025-06-15 15:36:09,229 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:36:09,229 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:36:09,229 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-15 15:36:09,229 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:36:09,229 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:36:09,229 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:36:09,229 - global_logger - INFO - Calculating p_hat
+2025-06-15 15:36:09,230 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:36:09,230 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)
+2025-06-15 15:36:09,230 - global_logger - INFO - Using start_ry_4_6_matches to calculate F(k)

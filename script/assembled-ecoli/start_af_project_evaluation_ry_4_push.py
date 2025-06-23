@@ -1,8 +1,9 @@
 import sys
 import os
 from datetime import datetime
+import concurrent.futures
 current_dir = os.path.dirname(os.path.abspath(__file__))
-project_root = os.path.abspath(os.path.join(current_dir, os.pardir))
+project_root = os.path.abspath(os.path.join(current_dir, '..', '..'))
 sys.path.append(project_root)
 
 import yaml
@@ -15,11 +16,18 @@ from model.upper_model import compute_distance
 # Initialize logger
 logger = setup_logger()
 
+# Function to compute distance between two sequences
+# This will be executed in parallel
+
+def compute_distance_parallel(args):
+    seq1, seq2, config_args = args
+    return compute_distance(seq1, seq2, config_args)
+
 def main():
     try:
-        logger.info("Starting AF project evaluation")
+        logger.info("Starting AF project evaluation with start_ry_4_push_matches")
         
-        config_path = "../config/af_project_evaluation.yaml"
+        config_path = "../../config/assembled-ecoli/af_project_evaluation_ry_4_push.yaml"
         logger.info(f"Loading configuration from {config_path}")
         with open(config_path) as f:
             config = yaml.load(f, Loader=yaml.FullLoader)
@@ -53,12 +61,19 @@ def main():
         logger.info(f"Saving results to {save_path_phy}")
         N = len(seqs)
         distance_matrix = [[0.0 for _ in range(N)] for _ in range(N)]
-        for i in range(N):
-            for j in range(N):
-                if i == j:
-                    distance_matrix[i][j] = 0.0
-                else:
-                    distance_matrix[i][j] = compute_distance(seqs[i], seqs[j], args)
+
+        # Use ProcessPoolExecutor for parallel computation
+        with concurrent.futures.ProcessPoolExecutor() as executor:
+            # Prepare arguments for parallel execution
+            tasks = ((seqs[i], seqs[j], args) for i in range(N) for j in range(N) if i != j)
+            results = executor.map(compute_distance_parallel, tasks)
+
+            # Fill the distance matrix with results
+            for i in range(N):
+                for j in range(N):
+                    if i != j:
+                        distance_matrix[i][j] = next(results)
+
         # 写入 PHYLIP 格式
         with open(save_path_phy, "w") as f:
             f.write(f"{N}\n")
@@ -68,8 +83,6 @@ def main():
                 f.write(f"{name}{row}\n")
         logger.info("PHYLIP evaluation completed successfully")
 
-        
-        
         logger.info("Evaluation completed successfully")
     
     except Exception as e:

@@ -1,0 +1,12 @@
+# input
+data_path: "../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli"
+
+# output
+output_path: "../../result/assembled-ecoli"
+
+# methods
+k_mers_method: "start_ry_4_push_matches"
+background_matches_method: "no_background_matches"
+bool_use_single_seq: false # true
+bool_use_empirical_formula: true
+

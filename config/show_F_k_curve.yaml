@@ -1,5 +1,5 @@
 # input
-data_path: "../dataset/test.fasta"
+data_path: "../dataset/test_dataset/test.fasta"
 
 # output
 output_path: "../result"
@@ -15,6 +15,13 @@ test method:
 
 control method:
   k_mers_method: "basic_kmer_matches"
+  background_matches_method: "no_background_matches"
+  bool_use_single_seq: true
+  bool_use_empirical_formula: true
+
+# Add start_rr_matches configuration
+rr_method:
+  k_mers_method: "start_rr_matches"
   background_matches_method: "no_background_matches"
   bool_use_single_seq: true
   bool_use_empirical_formula: true

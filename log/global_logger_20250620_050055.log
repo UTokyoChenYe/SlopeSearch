@@ -1,0 +1,21 @@
+2025-06-20 05:00:55,131 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-20 05:00:55,131 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-20 05:00:55,131 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-20 05:00:55,132 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml
+2025-06-20 05:00:55,132 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml
+2025-06-20 05:00:55,132 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml
+2025-06-20 05:00:55,133 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry_4_pull.py", line 32, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'
+2025-06-20 05:00:55,133 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry_4_pull.py", line 32, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'
+2025-06-20 05:00:55,133 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry_4_pull.py", line 32, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry_4_pull.yaml'

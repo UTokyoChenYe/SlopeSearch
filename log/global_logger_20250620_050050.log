@@ -1,0 +1,21 @@
+2025-06-20 05:00:50,511 - global_logger - INFO - Starting AF project evaluation
+2025-06-20 05:00:50,511 - global_logger - INFO - Starting AF project evaluation
+2025-06-20 05:00:50,511 - global_logger - INFO - Starting AF project evaluation
+2025-06-20 05:00:50,512 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry.yaml
+2025-06-20 05:00:50,512 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry.yaml
+2025-06-20 05:00:50,512 - global_logger - INFO - Loading configuration from ../../config/assembled-fish_mito/af_project_evaluation_ry.yaml
+2025-06-20 05:00:50,513 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry.py", line 24, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'
+2025-06-20 05:00:50,513 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry.py", line 24, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'
+2025-06-20 05:00:50,513 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/./assembled-fish_mito/start_af_project_evaluation_ry.py", line 24, in main
+    with open(config_path) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '../../config/assembled-fish_mito/af_project_evaluation_ry.yaml'

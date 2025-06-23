@@ -46,12 +46,35 @@ class F_k_funtion:
     def calculate_p_hat(self):
         logger.info("Calculating p_hat")
         for k in tqdm(range(self.k_min, self.k_max + 1), desc="Calculating F(k) for different k values"):
+            if self.k_mers_method == "start_ry_4_6_matches" and k < 6:
+                continue
+            if self.k_mers_method == "start_ry_4_9_matches" and k < 9:
+                continue
+            if self.k_mers_method == "start_ry_4_push_matches" and k < 9:
+                continue
+            if self.k_mers_method == "start_ry_4_pull_matches" and k < 9:
+                continue
             if self.k_mers_method == "basic_kmer_matches":
                 logger.info("Using basic kmer matches to calculate F(k)")
                 matches = basic_kmer_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             elif self.k_mers_method == "start_ry_matches":
                 logger.info("Using start_ry_matches to calculate F(k)")
                 matches = start_ry_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_rr_matches":
+                logger.info("Using start_rr_matches to calculate F(k)")
+                matches = start_rr_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_6_matches":
+                logger.info("Using start_ry_4_6_matches to calculate F(k)")
+                matches = start_ry_4_6_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_9_matches":
+                logger.info("Using start_ry_4_9_matches to calculate F(k)")
+                matches = start_ry_4_9_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_push_matches":
+                logger.info("Using start_ry_4_push_matches to calculate F(k)")
+                matches = start_ry_4_push_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_pull_matches":
+                logger.info("Using start_ry_4_pull_matches to calculate F(k)")
+                matches = start_ry_4_pull_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             else:
                 logger.error("Invalid align-free method.")
                 raise ValueError("Invalid align-free method.")
@@ -84,12 +107,31 @@ class F_k_funtion:
     def show_F_k_curve(self):
         logger.info("Showing F(k) curve")
         for k in tqdm(self.k_show_values, desc="Showing F(k) curve"):
+            if self.k_mers_method == "start_ry_4_6_matches" and k < 6:
+                continue
+            if self.k_mers_method == "start_ry_4_9_matches" and k < 9:
+                continue
             if self.k_mers_method == "basic_kmer_matches":
                 logger.info("Using basic kmer matches to calculate F(k)")
                 matches = basic_kmer_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             elif self.k_mers_method == "start_ry_matches":
                 logger.info("Using start_ry_matches to calculate F(k)")
                 matches = start_ry_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_rr_matches":
+                logger.info("Using start_rr_matches to calculate F(k)")
+                matches = start_rr_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_6_matches":
+                logger.info("Using start_ry_4_6_matches to calculate F(k)")
+                matches = start_ry_4_6_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_9_matches":
+                logger.info("Using start_ry_4_9_matches to calculate F(k)")
+                matches = start_ry_4_9_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_push_matches":
+                logger.info("Using start_ry_4_push_matches to calculate F(k)")
+                matches = start_ry_4_push_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "start_ry_4_pull_matches":
+                logger.info("Using start_ry_4_pull_matches to calculate F(k)")
+                matches = start_ry_4_pull_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             else:
                 logger.error("Invalid align-free method.")
                 raise ValueError("Invalid align-free method.")

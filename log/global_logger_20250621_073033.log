@@ -1,0 +1,783 @@
+2025-06-21 07:30:33,034 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-21 07:30:33,034 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-21 07:30:33,034 - global_logger - INFO - Starting AF project evaluation with start_ry_4_pull_matches
+2025-06-21 07:30:33,034 - global_logger - INFO - Loading configuration from ../../config/assembled-ecoli/af_project_evaluation_ry_4_pull.yaml
+2025-06-21 07:30:33,034 - global_logger - INFO - Loading configuration from ../../config/assembled-ecoli/af_project_evaluation_ry_4_pull.yaml
+2025-06-21 07:30:33,034 - global_logger - INFO - Loading configuration from ../../config/assembled-ecoli/af_project_evaluation_ry_4_pull.yaml
+2025-06-21 07:30:33,036 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-21 07:30:33,036 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-21 07:30:33,036 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-ecoli/dataset/assembled-ecoli
+2025-06-21 07:30:34,042 - global_logger - INFO - Loaded 29 sequences
+2025-06-21 07:30:34,042 - global_logger - INFO - Loaded 29 sequences
+2025-06-21 07:30:34,042 - global_logger - INFO - Loaded 29 sequences
+2025-06-21 07:30:34,042 - global_logger - INFO - Saving results to ../../result/assembled-ecoli/af_project_evaluation_20250621_073034_start_ry_4_pull_matches_no_background_matches_False_True.phy
+2025-06-21 07:30:34,042 - global_logger - INFO - Saving results to ../../result/assembled-ecoli/af_project_evaluation_20250621_073034_start_ry_4_pull_matches_no_background_matches_False_True.phy
+2025-06-21 07:30:34,042 - global_logger - INFO - Saving results to ../../result/assembled-ecoli/af_project_evaluation_20250621_073034_start_ry_4_pull_matches_no_background_matches_False_True.phy
+2025-06-21 07:30:34,284 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,284 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,284 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,284 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,284 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,284 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,284 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,284 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,284 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,290 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,290 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,290 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,319 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,319 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,319 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,320 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,320 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,320 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,320 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,320 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,320 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,326 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,326 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,326 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,395 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,395 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,395 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,396 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,396 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,396 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,396 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,396 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,396 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,402 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,402 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,402 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,442 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,442 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,442 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,443 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,443 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,443 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,443 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,443 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,443 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,450 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,450 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,450 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,505 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,505 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,505 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,506 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,506 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,506 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,506 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,506 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,506 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,512 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,512 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,512 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,572 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,572 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,572 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,573 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,573 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,573 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,573 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,573 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,573 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,579 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,579 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,579 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,637 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,637 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,637 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,638 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,638 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,638 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,638 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,638 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,638 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,645 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,645 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,645 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,711 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,711 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,711 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,712 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,712 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,712 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,712 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,712 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,712 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,715 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,715 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,715 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,784 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,784 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,784 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,784 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,784 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,784 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,784 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,784 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,784 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,788 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,788 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,788 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,854 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,854 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,854 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,854 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,854 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,854 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,854 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,854 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,854 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,858 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,858 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,858 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,912 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,912 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,912 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,913 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,913 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,913 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,913 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,913 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,913 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,916 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,916 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,916 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,985 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,985 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,985 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:34,986 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,986 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,986 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:34,986 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,986 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,986 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:34,990 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,990 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:34,990 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,060 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,060 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,060 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,061 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,061 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,061 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,061 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,061 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,061 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,065 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,065 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,065 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,119 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,119 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,119 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,123 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,123 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,123 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,188 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,188 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,188 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,193 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,193 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,193 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,256 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,256 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,256 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,256 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,256 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,256 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,256 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,256 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,256 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,260 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,260 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,260 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,343 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,343 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,343 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,344 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,344 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,344 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,344 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,344 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,344 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,349 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,349 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,349 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,402 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,403 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,403 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,403 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,403 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,403 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,403 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,407 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,407 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,407 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,475 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,475 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,475 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,475 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,475 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,475 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,475 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,475 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,475 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,479 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,479 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,479 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,534 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,534 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,534 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,535 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,535 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,535 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,535 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,535 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,535 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,539 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,539 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,539 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,576 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,576 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,576 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,576 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,576 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,576 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,577 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,577 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,577 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,580 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,580 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,580 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,623 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,623 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,623 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,624 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,624 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,624 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,624 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,624 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,624 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,627 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,627 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,627 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,686 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,686 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,686 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,686 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,686 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,686 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,687 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,687 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,687 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,690 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,690 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,690 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,731 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,731 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,731 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,731 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,731 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,731 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,731 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,731 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,731 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,734 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,734 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,734 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,775 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,775 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,775 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,776 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,776 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,776 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,776 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,776 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,776 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,779 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,779 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,779 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,828 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,828 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,828 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,829 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,829 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,829 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,829 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,829 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,829 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,832 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,832 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,832 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,866 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,866 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,866 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,867 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,867 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,867 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,867 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,867 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,867 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,869 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,869 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,869 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,923 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,923 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,923 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,923 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,923 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,923 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,924 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,924 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,924 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,927 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,927 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,927 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:35,979 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,979 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,979 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:35,980 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,980 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,980 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:35,983 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,983 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:35,983 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,019 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,019 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,019 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,020 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,020 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,020 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,020 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,020 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,020 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,023 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,023 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,023 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,080 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,080 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,080 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,080 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,080 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,080 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,081 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,081 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,081 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,083 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,083 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,083 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,118 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,118 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,118 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,119 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,119 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,122 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,122 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,122 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,157 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,157 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,157 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,158 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,158 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,158 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,158 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,158 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,158 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,162 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,162 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,162 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,190 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,190 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,190 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,191 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,191 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,191 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,191 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,191 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,191 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,194 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,194 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,194 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,225 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,225 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,225 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,226 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,226 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,226 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,226 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,226 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,226 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,229 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,229 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,229 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,277 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,277 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,277 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,277 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,277 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,277 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,277 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,277 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,277 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,280 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,280 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,280 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,328 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,328 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,328 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,328 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,328 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,328 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,328 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,328 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,328 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,331 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,331 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,331 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,376 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,376 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,376 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,376 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,376 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,376 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,377 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,377 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,377 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,380 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,380 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,380 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,417 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,417 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,417 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,418 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,418 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,418 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,418 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,418 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,418 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,421 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,421 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,421 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,472 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,472 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,472 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,472 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,472 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,472 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,473 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,473 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,473 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,476 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,476 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,476 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,522 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,522 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,522 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,523 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,523 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,523 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,524 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,524 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,524 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,527 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,527 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,527 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,550 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,550 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,550 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,551 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,551 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,551 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,551 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,551 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,551 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,554 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,554 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,554 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,605 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,606 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,606 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,606 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,606 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,606 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,606 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,609 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,609 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,609 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,658 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,658 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,658 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,658 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,658 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,658 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,658 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,658 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,658 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,662 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,662 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,662 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,694 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,694 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,694 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,694 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,694 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,694 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,698 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,698 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,698 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,749 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,749 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,749 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,750 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,750 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,750 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,750 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,750 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,750 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,753 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,753 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,753 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,799 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,799 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,799 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,800 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,800 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,800 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,801 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,801 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,801 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,855 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,857 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,857 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,857 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,857 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,857 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,857 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,861 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,861 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,861 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,895 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,895 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,895 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,896 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,896 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,896 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,896 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,896 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,896 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,899 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,899 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,899 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,932 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,932 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,932 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,933 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,933 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,933 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,933 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,933 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,933 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,937 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,937 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,937 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,995 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,995 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,995 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:36,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:36,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:36,999 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,999 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:36,999 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,036 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,036 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,036 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,037 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,037 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,037 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,037 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,037 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,037 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,042 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,042 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,042 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,069 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,069 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,069 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,071 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,071 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,071 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,071 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,071 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,071 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,075 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,075 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,075 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,111 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,111 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,111 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,113 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,113 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,113 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,113 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,113 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,113 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,118 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,118 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,118 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,189 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,189 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,189 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,190 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,190 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,205 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,205 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,205 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,291 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,291 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,291 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,292 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,292 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,292 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,293 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,293 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,293 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,309 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,309 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,309 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,349 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,349 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,349 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,350 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,350 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,350 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,350 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,350 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,350 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,373 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,373 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,373 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,462 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,462 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,462 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,463 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,463 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,463 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,463 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,463 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,463 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,477 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,477 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,477 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,542 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,542 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,542 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,562 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,562 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,562 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,562 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,562 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,562 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,573 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,573 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,573 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,645 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,645 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,645 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,646 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,646 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,646 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,646 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,646 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,646 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,661 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,661 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,661 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,693 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,707 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,707 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,707 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,708 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,708 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,708 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,721 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,721 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,721 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,781 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,781 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,781 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,786 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,786 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,786 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,787 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,787 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,787 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,805 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,871 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,871 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,871 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,880 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,880 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,880 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,881 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,881 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,881 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,908 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,908 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,908 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:37,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,979 - global_logger - INFO - Using empirical formula to calculate k_min and k_max
+2025-06-21 07:30:37,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,995 - global_logger - INFO - k_min: 19, k_max: 24
+2025-06-21 07:30:37,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:37,996 - global_logger - INFO - Calculating p_hat
+2025-06-21 07:30:38,013 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:38,013 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)
+2025-06-21 07:30:38,013 - global_logger - INFO - Using start_ry_4_pull_matches to calculate F(k)

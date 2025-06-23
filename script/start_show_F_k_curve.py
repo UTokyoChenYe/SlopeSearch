@@ -57,8 +57,13 @@ def main():
 
         # 2. plot F(k) curve
         plt.figure(figsize=(10, 6))
-        plt.plot(k_show_values[:len(F_k_show_test)], F_k_show_test, marker='o', linestyle='-', color='b', label='F_k_v2')
-        plt.plot(k_show_values[:len(F_k_show_control)], F_k_show_control, marker='s', linestyle='-', color='r', label='F_k_paper')
+        plt.plot(k_show_values[:len(F_k_show_test)], F_k_show_test, marker='o', linestyle='-', color='b', label='F_k_ry')
+        plt.plot(k_show_values[:len(F_k_show_control)], F_k_show_control, marker='s', linestyle='-', color='r', label='F_k_basic')
+
+        # Add start_rr_matches plot
+        F_k_function_rr = F_k_funtion(seqs[0], seqs[1], {"k_mers_method": "start_rr_matches", "bool_use_single_seq": test_bool_use_single_seq})
+        F_k_show_rr = F_k_function_rr.show_F_k_curve()
+        plt.plot(k_show_values[:len(F_k_show_rr)], F_k_show_rr, marker='^', linestyle='-', color='g', label='F_k_rr')
 
         plt.xlabel('Word Length (k)')
         plt.ylabel('F(k)')

@@ -1,0 +1,32 @@
+2025-04-26 14:27:59,625 - global_logger - INFO - Starting show F(k) curve
+2025-04-26 14:27:59,625 - global_logger - INFO - Starting show F(k) curve
+2025-04-26 14:27:59,625 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-04-26 14:27:59,625 - global_logger - INFO - Loading configuration from ../config/show_F_k_curve.yaml
+2025-04-26 14:27:59,628 - global_logger - INFO - Loading sequences from ../dataset/test.fasta
+2025-04-26 14:27:59,628 - global_logger - INFO - Loading sequences from ../dataset/test.fasta
+2025-04-26 14:27:59,633 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../dataset/test.fasta'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/start_show_F_k_curve.py", line 44, in main
+    names, seqs = load_sequences_for_evaluation(data_path)
+  File "/home/chenye/project/slope-spam/slope-spam-python/utils/file_system.py", line 30, in load_sequences_for_evaluation
+    records = list(SeqIO.parse(file_path, "fasta"))
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/__init__.py", line 607, in parse
+    return iterator_generator(handle)
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/FastaIO.py", line 183, in __init__
+    super().__init__(source, mode="t", fmt="Fasta")
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/Interfaces.py", line 47, in __init__
+    self.stream = open(source, "r" + mode)
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/test.fasta'
+2025-04-26 14:27:59,633 - global_logger - ERROR - An error occurred: [Errno 2] No such file or directory: '../dataset/test.fasta'
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/start_show_F_k_curve.py", line 44, in main
+    names, seqs = load_sequences_for_evaluation(data_path)
+  File "/home/chenye/project/slope-spam/slope-spam-python/utils/file_system.py", line 30, in load_sequences_for_evaluation
+    records = list(SeqIO.parse(file_path, "fasta"))
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/__init__.py", line 607, in parse
+    return iterator_generator(handle)
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/FastaIO.py", line 183, in __init__
+    super().__init__(source, mode="t", fmt="Fasta")
+  File "/home/chenye/anaconda3/envs/john_env/lib/python3.10/site-packages/Bio/SeqIO/Interfaces.py", line 47, in __init__
+    self.stream = open(source, "r" + mode)
+FileNotFoundError: [Errno 2] No such file or directory: '../dataset/test.fasta'
