@@ -75,6 +75,9 @@ class F_k_funtion:
             elif self.k_mers_method == "start_ry_4_pull_matches":
                 logger.info("Using start_ry_4_pull_matches to calculate F(k)")
                 matches = start_ry_4_pull_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "spaced_word_matches":
+                logger.info("Using spaced_word_matches to calculate F(k)")
+                matches = spaced_word_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             else:
                 logger.error("Invalid align-free method.")
                 raise ValueError("Invalid align-free method.")
@@ -111,6 +114,10 @@ class F_k_funtion:
                 continue
             if self.k_mers_method == "start_ry_4_9_matches" and k < 9:
                 continue
+            if self.k_mers_method == "start_ry_4_push_matches" and k < 9:
+                continue
+            if self.k_mers_method == "start_ry_4_pull_matches" and k < 9:
+                continue
             if self.k_mers_method == "basic_kmer_matches":
                 logger.info("Using basic kmer matches to calculate F(k)")
                 matches = basic_kmer_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
@@ -132,6 +139,9 @@ class F_k_funtion:
             elif self.k_mers_method == "start_ry_4_pull_matches":
                 logger.info("Using start_ry_4_pull_matches to calculate F(k)")
                 matches = start_ry_4_pull_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
+            elif self.k_mers_method == "spaced_word_matches":
+                logger.info("Using spaced_word_matches to calculate F(k)")
+                matches = spaced_word_matches(self.seq1, self.seq2, k, self.bool_use_single_seq)
             else:
                 logger.error("Invalid align-free method.")
                 raise ValueError("Invalid align-free method.")

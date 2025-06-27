@@ -203,6 +203,7 @@ def count_kmers_start_ry_4_pull(sequences: List[str], k: int) -> Counter:
                 kmers.append(kmer)
     return Counter(kmers)
 
+
 # 1. basic k-mer matches
 def basic_kmer_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
     """calculate the number of k-mer matches between two sequences"""
@@ -348,4 +349,38 @@ def start_ry_4_pull_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> i
     for kmer in kmer_count1:
         if kmer in kmer_count2:
             matches += 0.5 * min(kmer_count1[kmer], kmer_count2[kmer])
+    return matches
+
+
+def spaced_word_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
+    """calculate the number of spaced-word matches between two sequences"""
+    # 根据 k 生成 pattern
+    pattern = generate_pattern(k)
+    
+    if single_seq == 1:
+        seq1 = [seq1]
+        seq2 = [seq2]
+    else:
+        seq1_reverse_comple = reverse_complement(seq1)
+        seq2_reverse_comple = reverse_complement(seq2)
+        seq1 = [seq1, seq1_reverse_comple]
+        seq2 = [seq2, seq2_reverse_comple] # only one time reverse is okay, two reverse will make it slower
+    
+    # 提取 spaced words
+    spaced_words1 = []
+    spaced_words2 = []
+    
+    for sequence in seq1:
+        spaced_words1.extend(extract_spaced_word(sequence, pattern))
+    
+    for sequence in seq2:
+        spaced_words2.extend(extract_spaced_word(sequence, pattern))
+    
+    # 计算匹配数
+    word_count1 = Counter(spaced_words1)
+    word_count2 = Counter(spaced_words2)
+    matches = 0
+    for word in word_count1:
+        if word in word_count2:
+            matches += 0.5 * min(word_count1[word], word_count2[word])
     return matches

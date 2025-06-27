@@ -1,0 +1,216 @@
+2025-06-24 05:33:28,248 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:33:28,248 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:33:28,248 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:33:28,248 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:33:28,248 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:33:28,248 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:33:28,256 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:33:28,256 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:33:28,256 - global_logger - INFO - Loading sequences from ../../dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:33:28,257 - global_logger - INFO - Loaded 0 sequences
+2025-06-24 05:33:28,257 - global_logger - INFO - Loaded 0 sequences
+2025-06-24 05:33:28,257 - global_logger - INFO - Loaded 0 sequences
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence names: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence names: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence names: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence lengths: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence lengths: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Sequence lengths: []...
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - Testing method: slope-spam
+2025-06-24 05:33:28,257 - global_logger - INFO - slope-spam completed in 0.0000 seconds
+2025-06-24 05:33:28,257 - global_logger - INFO - slope-spam completed in 0.0000 seconds
+2025-06-24 05:33:28,257 - global_logger - INFO - slope-spam completed in 0.0000 seconds
+2025-06-24 05:33:28,257 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,257 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,257 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RR
+2025-06-24 05:33:28,258 - global_logger - INFO - RR completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - RR completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - RR completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - Testing method: RY
+2025-06-24 05:33:28,258 - global_logger - INFO - RY completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - RY completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - RY completed in 0.0000 seconds
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,258 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-6
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-6 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-6 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-6 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - Testing method: RY 4-9
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-9 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-9 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - RY 4-9 completed in 0.0000 seconds
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,259 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 push
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 push completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 push completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 push completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - Testing method: RY 4 pull
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 pull completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 pull completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - RY 4 pull completed in 0.0000 seconds
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,260 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Testing method: Spaced Word
+2025-06-24 05:33:28,261 - global_logger - INFO - Spaced Word completed in 0.0000 seconds
+2025-06-24 05:33:28,261 - global_logger - INFO - Spaced Word completed in 0.0000 seconds
+2025-06-24 05:33:28,261 - global_logger - INFO - Spaced Word completed in 0.0000 seconds
+2025-06-24 05:33:28,261 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,261 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,261 - global_logger - INFO - Matrix size: 0x0, Total pairs: 0
+2025-06-24 05:33:28,262 - global_logger - INFO - 
+======================================================================
+2025-06-24 05:33:28,262 - global_logger - INFO - 
+======================================================================
+2025-06-24 05:33:28,262 - global_logger - INFO - 
+======================================================================
+2025-06-24 05:33:28,263 - global_logger - INFO - DISTANCE MATRIX CONSTRUCTION SPEED TEST RESULTS
+2025-06-24 05:33:28,263 - global_logger - INFO - DISTANCE MATRIX CONSTRUCTION SPEED TEST RESULTS
+2025-06-24 05:33:28,263 - global_logger - INFO - DISTANCE MATRIX CONSTRUCTION SPEED TEST RESULTS
+2025-06-24 05:33:28,263 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,263 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,263 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,264 - global_logger - INFO - slope-spam     : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,264 - global_logger - INFO - slope-spam     : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,264 - global_logger - INFO - slope-spam     : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RR             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RR             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RR             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY             : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-6         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-6         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-6         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-9         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-9         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,265 - global_logger - INFO - RY 4-9         : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 push      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 push      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 push      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 pull      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 pull      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - RY 4 pull      : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - Spaced Word    : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - Spaced Word    : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - Spaced Word    : 0.0000s | 0x0 | 0 pairs
+2025-06-24 05:33:28,266 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,266 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,266 - global_logger - INFO - ======================================================================
+2025-06-24 05:33:28,269 - global_logger - INFO - Results saved to ../../result/speed_test/matrix_speed_test_results_20250624_053328.csv
+2025-06-24 05:33:28,269 - global_logger - INFO - Results saved to ../../result/speed_test/matrix_speed_test_results_20250624_053328.csv
+2025-06-24 05:33:28,269 - global_logger - INFO - Results saved to ../../result/speed_test/matrix_speed_test_results_20250624_053328.csv
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Fastest method: RY 4-9 (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Fastest method: RY 4-9 (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Fastest method: RY 4-9 (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - Slowest method: slope-spam (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - Slowest method: slope-spam (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - Slowest method: slope-spam (0.0000s)
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Relative speed comparison:
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Relative speed comparison:
+2025-06-24 05:33:28,269 - global_logger - INFO - 
+Relative speed comparison:
+2025-06-24 05:33:28,270 - global_logger - INFO - slope-spam     : 0.57x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - slope-spam     : 0.57x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - slope-spam     : 0.57x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RR             : 0.80x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RR             : 0.80x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RR             : 0.80x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY             : 0.73x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY             : 0.73x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY             : 0.73x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-6         : 0.89x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-6         : 0.89x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-6         : 0.89x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-9         : 1.00x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-9         : 1.00x slower than fastest
+2025-06-24 05:33:28,270 - global_logger - INFO - RY 4-9         : 1.00x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 push      : 1.00x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 push      : 1.00x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 push      : 1.00x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 pull      : 0.80x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 pull      : 0.80x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - RY 4 pull      : 0.80x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - Spaced Word    : 0.89x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - Spaced Word    : 0.89x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - Spaced Word    : 0.89x slower than fastest
+2025-06-24 05:33:28,271 - global_logger - INFO - 
+Average time per sequence pair:
+2025-06-24 05:33:28,271 - global_logger - INFO - 
+Average time per sequence pair:
+2025-06-24 05:33:28,271 - global_logger - INFO - 
+Average time per sequence pair:
+2025-06-24 05:33:28,271 - global_logger - ERROR - An error occurred: float division by zero
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 146, in main
+    avg_time_per_pair = row['Execution_Time_Seconds'] / row['Total_Pairs']
+ZeroDivisionError: float division by zero
+2025-06-24 05:33:28,271 - global_logger - ERROR - An error occurred: float division by zero
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 146, in main
+    avg_time_per_pair = row['Execution_Time_Seconds'] / row['Total_Pairs']
+ZeroDivisionError: float division by zero
+2025-06-24 05:33:28,271 - global_logger - ERROR - An error occurred: float division by zero
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 146, in main
+    avg_time_per_pair = row['Execution_Time_Seconds'] / row['Total_Pairs']
+ZeroDivisionError: float division by zero

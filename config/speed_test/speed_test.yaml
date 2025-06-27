@@ -1,0 +1,87 @@
+# Speed test configuration file
+# 速度测试配置文件
+
+# Data path - fish_mito dataset
+data_path: "dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito"
+
+# Output path for results
+output_path: "result/speed_test"
+
+# Methods to test - based on fish_mito configurations
+methods:
+  basic_kmers:
+    name: "basic_kmers"
+    k_mers_method: "basic_kmer_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "Standard k-mer matching method"
+    
+  rr:
+    name: "RR"
+    k_mers_method: "start_rr_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RR pattern matching (purine-purine start)"
+    
+  ry:
+    name: "RY"
+    k_mers_method: "start_ry_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RY pattern matching (purine-pyrimidine start)"
+    
+  ry_4_6:
+    name: "RY 4-6"
+    k_mers_method: "start_ry_4_6_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RY 4-6 pattern matching"
+    
+  ry_4_9:
+    name: "RY 4-9"
+    k_mers_method: "start_ry_4_9_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RY 4-9 pattern matching"
+    
+  ry_4_push:
+    name: "RY 4 push"
+    k_mers_method: "start_ry_4_push_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RY 4 push pattern matching"
+    
+  ry_4_pull:
+    name: "RY 4 pull"
+    k_mers_method: "start_ry_4_pull_matches"
+    background_matches_method: "no_background_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "RY 4 pull pattern matching"
+    
+  spaced_word:
+    name: "Spaced Word"
+    k_mers_method: "spaced_word_matches"
+    background_matches_method: "basic_kmer_matches"
+    bool_use_single_seq: false
+    bool_use_empirical_formula: true
+    description: "Spaced word matching method (with background matches)"
+
+# Logging configuration
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  
+# Performance settings
+performance:
+  # Number of runs for averaging (if needed)
+  num_runs: 1
+  
+  # Timeout for each method (in seconds)
+  timeout: 300 

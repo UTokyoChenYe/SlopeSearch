@@ -1,0 +1,27 @@
+2025-06-24 05:41:28,627 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:41:28,627 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:41:28,627 - global_logger - INFO - Starting speed test for distance matrix construction
+2025-06-24 05:41:28,627 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:41:28,627 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:41:28,627 - global_logger - INFO - Loading configuration from ../config/speed_test/speed_test.yaml
+2025-06-24 05:41:28,635 - global_logger - INFO - Resolved data path: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,635 - global_logger - INFO - Resolved data path: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,635 - global_logger - INFO - Resolved data path: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - Data path does not exist: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - Data path does not exist: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - Data path does not exist: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - An error occurred: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 76, in main
+    raise FileNotFoundError(f"Data path not found: {data_path}")
+FileNotFoundError: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - An error occurred: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 76, in main
+    raise FileNotFoundError(f"Data path not found: {data_path}")
+FileNotFoundError: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+2025-06-24 05:41:28,636 - global_logger - ERROR - An error occurred: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
+Traceback (most recent call last):
+  File "/home/chenye/project/slope-spam/slope-spam-python/script/speed_test.py", line 76, in main
+    raise FileNotFoundError(f"Data path not found: {data_path}")
+FileNotFoundError: Data path not found: /home/chenye/project/dataset/af_project_dataset/AF-reference_datasets190511/genome-std-assembled-fish_mito/dataset/assembled-fish_mito
