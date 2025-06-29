@@ -35,6 +35,28 @@ def count_kmers_start_rr(sequences: List[str], k: int) -> Counter:
                 kmers.append(kmer)
     return Counter(kmers)
 
+# def count_kmers_start_ry_4_6(sequences: List[str], k: int) -> Counter:
+#     """计算以特定 RY46 模式开头的 k-mer 频率"""
+#     patterns = [
+#         'RRRRRY', 'RRYRRY', 'RRYRYY', 'RYRRRR', 'RYRRRY',
+#         'RYRYRY', 'RYYRRR', 'RYYRRY', 'RYYRYR', 'RYYRYY',
+#         'RYYYRY', 'RYYYYY', 'YRYRRY', 'YYYRRR', 'YYYRRY',
+#         'YYYYRY'
+#     ]
+#     purines = {'A', 'G'}
+#     pyrimidines = {'C', 'T'}
+#     kmers = []
+#     for sequence in sequences:
+#         for i in range(len(sequence) - k + 1):
+#             kmer = sequence[i:i + k]
+#             # Convert kmer to RY pattern
+#             ry_pattern = ''.join(['R' if base in purines else 'Y' for base in kmer])
+#             # Check if the k-mer starts with any of the patterns
+#             if any(ry_pattern.startswith(pattern) for pattern in patterns):
+#                 kmers.append(kmer)
+#     return Counter(kmers)
+
+
 def count_kmers_start_ry_4_6(sequences: List[str], k: int) -> Counter:
     """计算以特定 RY46 模式开头的 k-mer 频率"""
     patterns = [
@@ -43,18 +65,66 @@ def count_kmers_start_ry_4_6(sequences: List[str], k: int) -> Counter:
         'RYYYRY', 'RYYYYY', 'YRYRRY', 'YYYRRR', 'YYYRRY',
         'YYYYRY'
     ]
-    purines = {'A', 'G'}
-    pyrimidines = {'C', 'T'}
-    kmers = []
+    table = str.maketrans("ACGT", "RYRY")
+    word_length = len(next(iter(patterns)))
+
     for sequence in sequences:
+        ry_sequence = sequence.translate(table)
         for i in range(len(sequence) - k + 1):
-            kmer = sequence[i:i + k]
-            # Convert kmer to RY pattern
-            ry_pattern = ''.join(['R' if base in purines else 'Y' for base in kmer])
-            # Check if the k-mer starts with any of the patterns
-            if any(ry_pattern.startswith(pattern) for pattern in patterns):
-                kmers.append(kmer)
-    return Counter(kmers)
+            ry_pattern = ry_sequence[i:i + word_length]
+            if ry_pattern in patterns:
+                yield sequence[i:i + k]
+
+
+
+# def count_kmers_start_ry_4_9(sequences: List[str], k: int) -> Counter:
+#     """计算以特定 RY49 模式开头的 k-mer 频率"""
+#     patterns = [
+#         'rrrrrrrry', 'rrrrrryry', 'rrrrryrrr', 'rrrrryrry',
+#         'rrrrryyrr', 'rrrrryyry', 'rrrrryyyr', 'rrrrryyyy',
+#         'rrryryrrr', 'rrryryrry', 'rrryryyrr', 'rrryryyry',
+#         'rrryryyyr', 'rrryryyyy', 'rryrrrrrr', 'rryrrrrry',
+#         'rryrrryry', 'rryrryrrr', 'rryrryrry', 'rryrryryr',
+#         'rryrryyrr', 'rryrryyry', 'rryrryyyy', 'rryryryry',
+#         'rryyryrrr', 'rryyryrry', 'rryyryyry', 'rryyryyyy',
+#         'rryyyyrrr', 'rryyyyrry', 'rryyyyryr', 'rryyyyyrr',
+#         'ryrrrryrr', 'ryrrrryry', 'ryrrrryyr', 'ryrrrryyy',
+#         'ryrrryrrr', 'ryrrryrry', 'ryrrryyrr', 'ryrrryyry',
+#         'ryrrryyyr', 'ryrrryyyy', 'ryrryryyr', 'ryrryryyy',
+#         'ryrryyyrr', 'ryrryyyry', 'ryryryrrr', 'ryryryrry',
+#         'ryryryyrr', 'ryryryyry', 'ryryryyyr', 'ryryryyyy',
+#         'ryyrrrrrr', 'ryyrrrrry', 'ryyrrrryr', 'ryyrrryrr',
+#         'ryyrrryry', 'ryyrrryyr', 'ryyrrryyy', 'ryyrryrrr',
+#         'ryyrryrry', 'ryyrryryr', 'ryyrryyrr', 'ryyrryyry',
+#         'ryyrryyyr', 'ryyrryyyy', 'ryyryryrr', 'ryyryryry',
+#         'ryyryryyr', 'ryyryryyy', 'ryyryyrrr', 'ryyryyrry',
+#         'ryyryyyrr', 'ryyryyyry', 'ryyyryrrr', 'ryyyryrry',
+#         'ryyyryyrr', 'ryyyryyry', 'ryyyryyyr', 'ryyyryyyy',
+#         'ryyyyryyr', 'ryyyyryyy', 'ryyyyyryr', 'ryyyyyyrr',
+#         'ryyyyyyyy', 'yryrrrrrr', 'yryrrrrry', 'yryrrryry',
+#         'yryrryrrr', 'yryrryrry', 'yryrryryr', 'yryrryyrr',
+#         'yryrryyry', 'yryrryyyy', 'yryyryrrr', 'yryyryrry',
+#         'yryyryyry', 'yryyryyyy', 'yryyyyrrr', 'yryyyyrry',
+#         'yryyyyryr', 'yryyyyyrr', 'yyrrrryyr', 'yyrrrryyy',
+#         'yyrryryyr', 'yyrryryyy', 'yyyrrrrrr', 'yyyrrrrry',
+#         'yyyrrrryr', 'yyyrrryrr', 'yyyrrryry', 'yyyrrryyr',
+#         'yyyrrryyy', 'yyyrryrrr', 'yyyrryrry', 'yyyrryryr',
+#         'yyyrryyrr', 'yyyrryyry', 'yyyrryyyr', 'yyyrryyyy',
+#         'yyyryryrr', 'yyyryryry', 'yyyryryyr', 'yyyryryyy',
+#         'yyyyyryyr', 'yyyyyryyy', 'yyyyyyryr', 'yyyyyyyrr'
+#     ]
+#     purines = {'A', 'G'}
+#     pyrimidines = {'C', 'T'}
+#     kmers = []
+#     for sequence in sequences:
+#         for i in range(len(sequence) - k + 1):
+#             kmer = sequence[i:i + k]
+#             # Convert kmer to RY pattern
+#             ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
+#             # Check if the k-mer starts with any of the patterns
+#             if any(ry_pattern.startswith(pattern) for pattern in patterns):
+#                 kmers.append(kmer)
+#     return Counter(kmers)
 
 def count_kmers_start_ry_4_9(sequences: List[str], k: int) -> Counter:
     """计算以特定 RY49 模式开头的 k-mer 频率"""
@@ -92,18 +162,68 @@ def count_kmers_start_ry_4_9(sequences: List[str], k: int) -> Counter:
         'yyyryryrr', 'yyyryryry', 'yyyryryyr', 'yyyryryyy',
         'yyyyyryyr', 'yyyyyryyy', 'yyyyyyryr', 'yyyyyyyrr'
     ]
-    purines = {'A', 'G'}
-    pyrimidines = {'C', 'T'}
-    kmers = []
+    table = str.maketrans("ACGT", "ryry")
+    word_length = len(next(iter(patterns)))
+
     for sequence in sequences:
+        ry_sequence = sequence.translate(table)
         for i in range(len(sequence) - k + 1):
-            kmer = sequence[i:i + k]
-            # Convert kmer to RY pattern
-            ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
-            # Check if the k-mer starts with any of the patterns
-            if any(ry_pattern.startswith(pattern) for pattern in patterns):
-                kmers.append(kmer)
-    return Counter(kmers)
+            ry_pattern = ry_sequence[i:i + word_length]
+            if ry_pattern in patterns:
+                yield sequence[i:i + k]
+
+
+
+
+# def count_kmers_start_ry_4_push(sequences: List[str], k: int) -> Counter:
+#     """计算以特定 RY4_push 模式开头的 k-mer 频率"""
+#     patterns = [
+#         'rrrrryrrr', 'rrrrryrry', 'rrrrryryr', 'rrrrryryy',
+#         'rrrrryyrr', 'rrrrryyry', 'rrrrryyyy', 'rrrryyyrr',
+#         'rrrryyyry', 'rryrrrrry', 'rryrryrrr', 'rryrryrry',
+#         'rryrryryr', 'rryryrrrr', 'rryryrrry', 'rryryrryr',
+#         'rryryrryy', 'rryryryry', 'rryryyrrr', 'rryryyrry',
+#         'rryryyryr', 'rryryyryy', 'rryryyyrr', 'rryryyyry',
+#         'rryryyyyr', 'rryryyyyy', 'rryyyyrrr', 'rryyyyrry',
+#         'rryyyyryr', 'rryyyyryy', 'ryrrrrrrr', 'ryrrrrrry',
+#         'ryrrrryrr', 'ryrrrryry', 'ryrrrryyr', 'ryrrryrrr',
+#         'ryrrryrry', 'ryrrryryr', 'ryrrryryy', 'ryrrryyrr',
+#         'ryrrryyry', 'ryrrryyyy', 'ryrryyrrr', 'ryrryyrry',
+#         'ryrryyryr', 'ryrryyryy', 'ryrryyyrr', 'ryrryyyry',
+#         'ryrryyyyy', 'ryryryrrr', 'ryryryrry', 'ryryryyrr',
+#         'ryryryyry', 'ryryryyyy', 'ryyrrrrrr', 'ryyrrrrry',
+#         'ryyrrryry', 'ryyrryrrr', 'ryyrryrry', 'ryyrryryr',
+#         'ryyrryryy', 'ryyrryyrr', 'ryyrryyry', 'ryyrryyyy',
+#         'ryyryrrrr', 'ryyryrrry', 'ryyryrryy', 'ryyryryry',
+#         'ryyryyrrr', 'ryyryyrry', 'ryyryyryr', 'ryyryyryy',
+#         'ryyryyyrr', 'ryyryyyry', 'ryyryyyyy', 'ryyyyyrrr',
+#         'ryyyyyrry', 'ryyyyyryr', 'ryyyyyryy', 'ryyyyyyrr',
+#         'ryyyyyyry', 'yrrrryyyy', 'yrrryyyrr', 'yrrryyyry',
+#         'yryryyyrr', 'yryryyyry', 'yyrrrryrr', 'yyrrrryry',
+#         'yyrrrryyr', 'yyrrryrrr', 'yyrrryrry', 'yyrrryyrr',
+#         'yyrrryyry', 'yyrrryyyy', 'yyrryyyrr', 'yyrryyyry',
+#         'yyryrryrr', 'yyryrryry', 'yyryryrrr', 'yyryryrry',
+#         'yyryryyrr', 'yyryryyry', 'yyryryyyy', 'yyryyyyrr',
+#         'yyryyyyry', 'yyyrrrrrr', 'yyyrrrrry', 'yyyrrryry',
+#         'yyyrryrrr', 'yyyrryrry', 'yyyrryryr', 'yyyrryryy',
+#         'yyyrryyrr', 'yyyrryyry', 'yyyrryyyy', 'yyyryrrrr',
+#         'yyyryrrry', 'yyyryrryy', 'yyyryryry', 'yyyryyrrr',
+#         'yyyryyrry', 'yyyryyryr', 'yyyryyryy', 'yyyryyyrr',
+#         'yyyryyyry', 'yyyryyyyy', 'yyyyyyyrr', 'yyyyyyyry'
+#     ]
+#     purines = {'A', 'G'}
+#     pyrimidines = {'C', 'T'}
+#     kmers = []
+#     for sequence in sequences:
+#         for i in range(len(sequence) - k + 1):
+#             kmer = sequence[i:i + k]
+#             # Convert kmer to RY pattern
+#             ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
+#             # Check if the k-mer starts with any of the patterns
+#             if any(ry_pattern.startswith(pattern) for pattern in patterns):
+#                 kmers.append(kmer)
+#     return Counter(kmers)
+
 
 def count_kmers_start_ry_4_push(sequences: List[str], k: int) -> Counter:
     """计算以特定 RY4_push 模式开头的 k-mer 频率"""
@@ -141,18 +261,68 @@ def count_kmers_start_ry_4_push(sequences: List[str], k: int) -> Counter:
         'yyyryyrry', 'yyyryyryr', 'yyyryyryy', 'yyyryyyrr',
         'yyyryyyry', 'yyyryyyyy', 'yyyyyyyrr', 'yyyyyyyry'
     ]
-    purines = {'A', 'G'}
-    pyrimidines = {'C', 'T'}
-    kmers = []
+    table = str.maketrans("ACGT", "ryry")
+    word_length = len(next(iter(patterns)))
+
     for sequence in sequences:
+        ry_sequence = sequence.translate(table)
         for i in range(len(sequence) - k + 1):
-            kmer = sequence[i:i + k]
-            # Convert kmer to RY pattern
-            ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
-            # Check if the k-mer starts with any of the patterns
-            if any(ry_pattern.startswith(pattern) for pattern in patterns):
-                kmers.append(kmer)
-    return Counter(kmers)
+            ry_pattern = ry_sequence[i:i + word_length]
+            if ry_pattern in patterns:
+                yield sequence[i:i + k]
+
+
+
+
+# def count_kmers_start_ry_4_pull(sequences: List[str], k: int) -> Counter:
+#     """计算以特定 RY4_pull 模式开头的 k-mer 频率"""
+#     patterns = [
+#         'rrrrrrrrr', 'rrrrrryrr', 'rrrrrryry', 'rrrrrryyr',
+#         'rrrrrryyy', 'rrryryrrr', 'rrryryyrr', 'rrryryyry',
+#         'rrryryyyr', 'rrryryyyy', 'rryrrrrrr', 'rryrrryrr',
+#         'rryrrryry', 'rryrrryyr', 'rryrryrrr', 'rryrryrry',
+#         'rryrryryr', 'rryrryyrr', 'rryrryyry', 'rryrryyyr',
+#         'rryrryyyy', 'rryryryyr', 'rryryryyy', 'rryyryrrr',
+#         'rryyryyrr', 'rryyryyry', 'rryyryyyr', 'rryyryyyy',
+#         'rryyyryrr', 'rryyyyrrr', 'rryyyyyrr', 'rryyyyyyr',
+#         'ryrrrryrr', 'ryrrrryry', 'ryrrrryyr', 'ryrrrryyy',
+#         'ryrrryyyr', 'ryrrryyyy', 'ryrryryyr', 'ryrryryyy',
+#         'ryryrryrr', 'ryryrryry', 'ryryrryyr', 'ryryrryyy',
+#         'ryryryrrr', 'ryryryrry', 'ryryryryr', 'ryyrrrrrr',
+#         'ryyrrrrry', 'ryyrrryrr', 'ryyrrryry', 'ryyrrryyr',
+#         'ryyrrryyy', 'ryyrryrrr', 'ryyrryrry', 'ryyrryryr',
+#         'ryyrryyrr', 'ryyrryyry', 'ryyrryyyr', 'ryyrryyyy',
+#         'ryyryryrr', 'ryyryryry', 'ryyryryyr', 'ryyryryyy',
+#         'ryyyrrrrr', 'ryyyrrrry', 'ryyyrryrr', 'ryyyrryry',
+#         'ryyyrryyr', 'ryyyrryyy', 'ryyyryryr', 'ryyyryyrr',
+#         'ryyyryyry', 'ryyyryyyr', 'ryyyryyyy', 'ryyyyryrr',
+#         'ryyyyryry', 'ryyyyryyr', 'ryyyyryyy', 'ryyyyyyyr',
+#         'yrrrrryrr', 'yrrrrryry', 'yrrrrryyr', 'yrrrrryyy',
+#         'yrryryrrr', 'yryrrrrrr', 'yryrrryrr', 'yryrrryry',
+#         'yryrrryyr', 'yryryryyr', 'yryryryyy', 'yryyryrrr',
+#         'yryyryyrr', 'yryyryyry', 'yryyryyyr', 'yryyryyyy',
+#         'yryyyryrr', 'yryyyyrrr', 'yryyyyyrr', 'yryyyyyyr',
+#         'yyrrrryrr', 'yyrrrryry', 'yyrrrryyr', 'yyrrrryyy',
+#         'yyrryryyr', 'yyrryryyy', 'yyryrryrr', 'yyryrryry',
+#         'yyryrryyr', 'yyryrryyy', 'yyryryrrr', 'yyyrrryrr',
+#         'yyyrrryry', 'yyyrrryyr', 'yyyrrryyy', 'yyyryryyr',
+#         'yyyryryyy', 'yyyyrrrrr', 'yyyyrryrr', 'yyyyrryry',
+#         'yyyyrryyr', 'yyyyrryyy', 'yyyyyryrr', 'yyyyyryry',
+#         'yyyyyryyr', 'yyyyyryyy', 'yyyyyyyyr', 'yyyyyyyyy'
+#     ]
+#     purines = {'A', 'G'}
+#     pyrimidines = {'C', 'T'}
+#     kmers = []
+#     for sequence in sequences:
+#         for i in range(len(sequence) - k + 1):
+#             kmer = sequence[i:i + k]
+#             # Convert kmer to RY pattern
+#             ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
+#             # Check if the k-mer starts with any of the patterns
+#             if any(ry_pattern.startswith(pattern) for pattern in patterns):
+#                 kmers.append(kmer)
+#     return Counter(kmers)
+
 
 def count_kmers_start_ry_4_pull(sequences: List[str], k: int) -> Counter:
     """计算以特定 RY4_pull 模式开头的 k-mer 频率"""
@@ -190,18 +360,16 @@ def count_kmers_start_ry_4_pull(sequences: List[str], k: int) -> Counter:
         'yyyyrryyr', 'yyyyrryyy', 'yyyyyryrr', 'yyyyyryry',
         'yyyyyryyr', 'yyyyyryyy', 'yyyyyyyyr', 'yyyyyyyyy'
     ]
-    purines = {'A', 'G'}
-    pyrimidines = {'C', 'T'}
-    kmers = []
+    table = str.maketrans("ACGT", "ryry")
+    word_length = len(next(iter(patterns)))
+
     for sequence in sequences:
+        ry_sequence = sequence.translate(table)
         for i in range(len(sequence) - k + 1):
-            kmer = sequence[i:i + k]
-            # Convert kmer to RY pattern
-            ry_pattern = ''.join(['r' if base in purines else 'y' for base in kmer])
-            # Check if the k-mer starts with any of the patterns
-            if any(ry_pattern.startswith(pattern) for pattern in patterns):
-                kmers.append(kmer)
-    return Counter(kmers)
+            ry_pattern = ry_sequence[i:i + word_length]
+            if ry_pattern in patterns:
+                yield sequence[i:i + k]
+
 
 
 # 1. basic k-mer matches
@@ -289,8 +457,8 @@ def start_ry_4_6_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
         seq2_reverse_comple = reverse_complement(seq2)
         seq1 = [seq1, seq1_reverse_comple]
         seq2 = [seq2, seq2_reverse_comple] # only one time reverse is okay, two reverse will make it slower
-    kmer_count1 = count_kmers_start_ry_4_6(seq1, k)
-    kmer_count2 = count_kmers_start_ry_4_6(seq2, k)
+    kmer_count1 = Counter(count_kmers_start_ry_4_6(seq1, k))
+    kmer_count2 = Counter(count_kmers_start_ry_4_6(seq2, k))
     matches = 0
     for kmer in kmer_count1:
         if kmer in kmer_count2:
@@ -307,8 +475,8 @@ def start_ry_4_9_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> int:
         seq2_reverse_comple = reverse_complement(seq2)
         seq1 = [seq1, seq1_reverse_comple]
         seq2 = [seq2, seq2_reverse_comple] # only one time reverse is okay, two reverse will make it slower
-    kmer_count1 = count_kmers_start_ry_4_9(seq1, k)
-    kmer_count2 = count_kmers_start_ry_4_9(seq2, k)
+    kmer_count1 = Counter(count_kmers_start_ry_4_9(seq1, k))
+    kmer_count2 = Counter(count_kmers_start_ry_4_9(seq2, k))
     matches = 0
     for kmer in kmer_count1:
         if kmer in kmer_count2:
@@ -325,8 +493,8 @@ def start_ry_4_push_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> i
         seq2_reverse_comple = reverse_complement(seq2)
         seq1 = [seq1, seq1_reverse_comple]
         seq2 = [seq2, seq2_reverse_comple] # only one time reverse is okay, two reverse will make it slower
-    kmer_count1 = count_kmers_start_ry_4_push(seq1, k)
-    kmer_count2 = count_kmers_start_ry_4_push(seq2, k)
+    kmer_count1 = Counter(count_kmers_start_ry_4_push(seq1, k))
+    kmer_count2 = Counter(count_kmers_start_ry_4_push(seq2, k))
     matches = 0
     for kmer in kmer_count1:
         if kmer in kmer_count2:
@@ -343,8 +511,8 @@ def start_ry_4_pull_matches(seq1: str, seq2: str, k: int, single_seq: bool) -> i
         seq2_reverse_comple = reverse_complement(seq2)
         seq1 = [seq1, seq1_reverse_comple]
         seq2 = [seq2, seq2_reverse_comple] # only one time reverse is okay, two reverse will make it slower
-    kmer_count1 = count_kmers_start_ry_4_pull(seq1, k)
-    kmer_count2 = count_kmers_start_ry_4_pull(seq2, k)
+    kmer_count1 = Counter(count_kmers_start_ry_4_pull(seq1, k))
+    kmer_count2 = Counter(count_kmers_start_ry_4_pull(seq2, k))
     matches = 0
     for kmer in kmer_count1:
         if kmer in kmer_count2:
